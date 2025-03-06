@@ -5,7 +5,6 @@ def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
     parser = ConfigParser()
     parser.read(filename)
 
-    # get section, default to postgresql
     configdict = {}
     if parser.has_section(section):
         params = parser.items(section)
@@ -16,5 +15,10 @@ def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
 
     return configdict
 
-if __name__ == '__main__':
-    print(load_config())
+def get_sections(filename='DB_configs/user_options.ini'):
+    parser = ConfigParser(allow_no_value=True, allow_unnamed_section=True)
+    parser.read(filename)
+
+    parser.getboolean()
+
+    return configdict

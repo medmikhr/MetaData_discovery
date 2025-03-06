@@ -1,5 +1,4 @@
-SELECT table_catalog, table_schema, table_name
-, pg_relation_size(p.oid), p.reltuples
+SELECT table_catalog as database, table_schema as schema_name, table_name as title, pg_relation_size(p.oid), p.reltuples as size
 FROM information_schema.tables as t
 left join pg_class as p
 on p.relname = t.table_name
