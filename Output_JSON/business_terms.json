@@ -1,0 +1,96 @@
+{
+  "seaf.ia.business_terms": {
+    "AS1_dvdrental_public_actor": {
+      "title": "actor",
+      "description": "actor"
+    },
+    "AS1_dvdrental_public_store": {
+      "title": "store",
+      "description": "store"
+    },
+    "AS1_dvdrental_public_address": {
+      "title": "address",
+      "description": "address"
+    },
+    "AS1_dvdrental_public_category": {
+      "title": "category",
+      "description": "category"
+    },
+    "AS1_dvdrental_public_city": {
+      "title": "city",
+      "description": "city"
+    },
+    "AS1_dvdrental_public_country": {
+      "title": "country",
+      "description": "country"
+    },
+    "AS1_dvdrental_public_customer": {
+      "title": "customer",
+      "description": "customer"
+    },
+    "AS1_dvdrental_public_film_actor": {
+      "title": "film_actor",
+      "description": "film_actor"
+    },
+    "AS1_dvdrental_public_film_category": {
+      "title": "film_category",
+      "description": "film_category"
+    },
+    "AS1_dvdrental_public_inventory": {
+      "title": "inventory",
+      "description": "inventory"
+    },
+    "AS1_dvdrental_public_language": {
+      "title": "language",
+      "description": "language"
+    },
+    "AS1_dvdrental_public_rental": {
+      "title": "rental",
+      "description": "rental"
+    },
+    "AS1_dvdrental_public_staff": {
+      "title": "staff",
+      "description": "staff"
+    },
+    "AS1_dvdrental_public_payment": {
+      "title": "payment",
+      "description": "payment"
+    },
+    "AS1_dvdrental_public_film": {
+      "title": "film",
+      "description": "film"
+    },
+    "AS2_flights_bookings_ticket_flights": {
+      "title": "ticket_flights",
+      "description": "ticket_flights"
+    },
+    "AS2_flights_bookings_boarding_passes": {
+      "title": "boarding_passes",
+      "description": "boarding_passes"
+    },
+    "AS2_flights_bookings_aircrafts": {
+      "title": "aircrafts",
+      "description": "aircrafts"
+    },
+    "AS2_flights_bookings_flights": {
+      "title": "flights",
+      "description": "flights"
+    },
+    "AS2_flights_bookings_airports": {
+      "title": "airports",
+      "description": "airports"
+    },
+    "AS2_flights_bookings_seats": {
+      "title": "seats",
+      "description": "seats"
+    },
+    "AS2_flights_bookings_tickets": {
+      "title": "tickets",
+      "description": "tickets"
+    },
+    "AS2_flights_bookings_bookings": {
+      "title": "bookings",
+      "description": "bookings"
+    }
+  }
+}

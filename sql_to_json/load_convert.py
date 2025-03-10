@@ -77,8 +77,7 @@ def create_pha_json(sql_output):
         entities_json[e_id] = record
     return entities_json
 
-
-def create_pht_level (cursor, entity):
+def create_ph_level (cursor, entity):
     sql_output = fetch_query_data(cursor, read_sql_query(entity))
     json_dump = create_pht_json(sql_output)
     output_file(entity, json_dump)

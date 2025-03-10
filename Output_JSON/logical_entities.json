@@ -1,0 +1,142 @@
+{
+  "seaf.ia.logical_entities": {
+    "AS1_dvdrental_public_actor": {
+      "title": "actor",
+      "description": "actor",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_store": {
+      "title": "store",
+      "description": "store",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_store"
+    },
+    "AS1_dvdrental_public_address": {
+      "title": "address",
+      "description": "address",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_category": {
+      "title": "category",
+      "description": "category",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_category"
+    },
+    "AS1_dvdrental_public_city": {
+      "title": "city",
+      "description": "city",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_country": {
+      "title": "country",
+      "description": "country",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_country"
+    },
+    "AS1_dvdrental_public_customer": {
+      "title": "customer",
+      "description": "customer",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_film_actor": {
+      "title": "film_actor",
+      "description": "film_actor",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_film_actor"
+    },
+    "AS1_dvdrental_public_film_category": {
+      "title": "film_category",
+      "description": "film_category",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_film_category"
+    },
+    "AS1_dvdrental_public_inventory": {
+      "title": "inventory",
+      "description": "inventory",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_language": {
+      "title": "language",
+      "description": "language",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_language"
+    },
+    "AS1_dvdrental_public_rental": {
+      "title": "rental",
+      "description": "rental",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_staff": {
+      "title": "staff",
+      "description": "staff",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_payment": {
+      "title": "payment",
+      "description": "payment",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_film": {
+      "title": "film",
+      "description": "film",
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_film"
+    },
+    "AS2_flights_bookings_ticket_flights": {
+      "title": "ticket_flights",
+      "description": "ticket_flights",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_boarding_passes": {
+      "title": "boarding_passes",
+      "description": "boarding_passes",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_aircrafts": {
+      "title": "aircrafts",
+      "description": "aircrafts",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_aircrafts"
+    },
+    "AS2_flights_bookings_flights": {
+      "title": "flights",
+      "description": "flights",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_flights"
+    },
+    "AS2_flights_bookings_airports": {
+      "title": "airports",
+      "description": "airports",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_airports"
+    },
+    "AS2_flights_bookings_seats": {
+      "title": "seats",
+      "description": "seats",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_seats"
+    },
+    "AS2_flights_bookings_tickets": {
+      "title": "tickets",
+      "description": "tickets",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_bookings": {
+      "title": "bookings",
+      "description": "bookings",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_bookings"
+    }
+  }
+}

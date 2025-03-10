@@ -1,0 +1,211 @@
+{
+  "seaf.ia.physical_tables": {
+    "AS1_dvdrental_public_actor": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "actor",
+      "description": "actor",
+      "size": 200.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_store": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "store",
+      "description": "store",
+      "size": 2.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_store"
+    },
+    "AS1_dvdrental_public_address": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "address",
+      "description": "address",
+      "size": 603.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_category": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "category",
+      "description": "category",
+      "size": 16.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_category"
+    },
+    "AS1_dvdrental_public_city": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "city",
+      "description": "city",
+      "size": 600.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_country": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "country",
+      "description": "country",
+      "size": 109.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_country"
+    },
+    "AS1_dvdrental_public_customer": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "customer",
+      "description": "customer",
+      "size": 599.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_film_actor": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "film_actor",
+      "description": "film_actor",
+      "size": 5462.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_film_actor"
+    },
+    "AS1_dvdrental_public_film_category": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "film_category",
+      "description": "film_category",
+      "size": 1000.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_film_category"
+    },
+    "AS1_dvdrental_public_inventory": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "inventory",
+      "description": "inventory",
+      "size": 4581.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_language": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "language",
+      "description": "language",
+      "size": 6.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_language"
+    },
+    "AS1_dvdrental_public_rental": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "rental",
+      "description": "rental",
+      "size": 16044.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_staff": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "staff",
+      "description": "staff",
+      "size": 2.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_payment": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "payment",
+      "description": "payment",
+      "size": 14596.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_film": {
+      "database": "dvdrental",
+      "schema_name": "public",
+      "title": "film",
+      "description": "film",
+      "size": 1000.0,
+      "system": "AS1",
+      "data_objects": "AS1_dvdrental_public_film"
+    },
+    "AS2_flights_bookings_ticket_flights": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "ticket_flights",
+      "description": "ticket_flights",
+      "size": 2360335.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_boarding_passes": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "boarding_passes",
+      "description": "boarding_passes",
+      "size": 1894295.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_aircrafts": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "aircrafts",
+      "description": "aircrafts",
+      "size": 9.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_aircrafts"
+    },
+    "AS2_flights_bookings_flights": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "flights",
+      "description": "flights",
+      "size": 65664.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_flights"
+    },
+    "AS2_flights_bookings_airports": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "airports",
+      "description": "airports",
+      "size": 104.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_airports"
+    },
+    "AS2_flights_bookings_seats": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "seats",
+      "description": "seats",
+      "size": 1339.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_seats"
+    },
+    "AS2_flights_bookings_tickets": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "tickets",
+      "description": "tickets",
+      "size": 829071.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_bookings": {
+      "database": "flights",
+      "schema_name": "bookings",
+      "title": "bookings",
+      "description": "bookings",
+      "size": 593433.0,
+      "system": "AS2",
+      "data_objects": "AS2_flights_bookings_bookings"
+    }
+  }
+}

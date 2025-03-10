@@ -1,0 +1,125 @@
+id,title,description,type,pk_flag,fk_flag,physical_table
+AS1_dvdrental_public_customer.store_id,store_id,store_id,smallint,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.first_name,first_name,first_name,character varying,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.last_name,last_name,last_name,character varying,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.email,email,email,character varying,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.address_id,address_id,address_id,smallint,0.0,1.0,dvdrental_public_customer
+AS1_dvdrental_public_customer.active,active,active,integer,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.customer_id,customer_id,customer_id,integer,1.0,0.0,dvdrental_public_customer
+AS1_dvdrental_public_customer.activebool,activebool,activebool,boolean,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.create_date,create_date,create_date,date,,,dvdrental_public_customer
+AS1_dvdrental_public_customer.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_customer
+AS1_dvdrental_public_actor.first_name,first_name,first_name,character varying,,,dvdrental_public_actor
+AS1_dvdrental_public_actor.last_name,last_name,last_name,character varying,,,dvdrental_public_actor
+AS1_dvdrental_public_actor.actor_id,actor_id,actor_id,integer,1.0,0.0,dvdrental_public_actor
+AS1_dvdrental_public_actor.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_actor
+AS1_dvdrental_public_category.name,name,name,character varying,,,dvdrental_public_category
+AS1_dvdrental_public_category.category_id,category_id,category_id,integer,1.0,0.0,dvdrental_public_category
+AS1_dvdrental_public_category.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_category
+AS1_dvdrental_public_film.title,title,title,character varying,,,dvdrental_public_film
+AS1_dvdrental_public_film.description,description,description,text,,,dvdrental_public_film
+AS1_dvdrental_public_film.release_year,release_year,release_year,integer,,,dvdrental_public_film
+AS1_dvdrental_public_film.language_id,language_id,language_id,smallint,0.0,1.0,dvdrental_public_film
+AS1_dvdrental_public_film.length,length,length,smallint,,,dvdrental_public_film
+AS1_dvdrental_public_film.special_features,special_features,special_features,ARRAY,,,dvdrental_public_film
+AS1_dvdrental_public_film.fulltext,fulltext,fulltext,tsvector,,,dvdrental_public_film
+AS1_dvdrental_public_film.film_id,film_id,film_id,integer,1.0,0.0,dvdrental_public_film
+AS1_dvdrental_public_film.rental_duration,rental_duration,rental_duration,smallint,,,dvdrental_public_film
+AS1_dvdrental_public_film.rental_rate,rental_rate,rental_rate,numeric,,,dvdrental_public_film
+AS1_dvdrental_public_film.replacement_cost,replacement_cost,replacement_cost,numeric,,,dvdrental_public_film
+AS1_dvdrental_public_film.rating,rating,rating,USER-DEFINED,,,dvdrental_public_film
+AS1_dvdrental_public_film.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_film
+AS1_dvdrental_public_film_actor.actor_id,actor_id,actor_id,smallint,1.0,1.0,dvdrental_public_film_actor
+AS1_dvdrental_public_film_actor.film_id,film_id,film_id,smallint,1.0,1.0,dvdrental_public_film_actor
+AS1_dvdrental_public_film_actor.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_film_actor
+AS1_dvdrental_public_film_category.film_id,film_id,film_id,smallint,1.0,1.0,dvdrental_public_film_category
+AS1_dvdrental_public_film_category.category_id,category_id,category_id,smallint,1.0,1.0,dvdrental_public_film_category
+AS1_dvdrental_public_film_category.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_film_category
+AS1_dvdrental_public_address.address,address,address,character varying,,,dvdrental_public_address
+AS1_dvdrental_public_address.address2,address2,address2,character varying,,,dvdrental_public_address
+AS1_dvdrental_public_address.district,district,district,character varying,,,dvdrental_public_address
+AS1_dvdrental_public_address.city_id,city_id,city_id,smallint,0.0,1.0,dvdrental_public_address
+AS1_dvdrental_public_address.postal_code,postal_code,postal_code,character varying,,,dvdrental_public_address
+AS1_dvdrental_public_address.phone,phone,phone,character varying,,,dvdrental_public_address
+AS1_dvdrental_public_address.address_id,address_id,address_id,integer,1.0,0.0,dvdrental_public_address
+AS1_dvdrental_public_address.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_address
+AS1_dvdrental_public_city.city,city,city,character varying,,,dvdrental_public_city
+AS1_dvdrental_public_city.country_id,country_id,country_id,smallint,0.0,1.0,dvdrental_public_city
+AS1_dvdrental_public_city.city_id,city_id,city_id,integer,1.0,0.0,dvdrental_public_city
+AS1_dvdrental_public_city.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_city
+AS1_dvdrental_public_country.country,country,country,character varying,,,dvdrental_public_country
+AS1_dvdrental_public_country.country_id,country_id,country_id,integer,1.0,0.0,dvdrental_public_country
+AS1_dvdrental_public_country.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_country
+AS1_dvdrental_public_inventory.film_id,film_id,film_id,smallint,0.0,1.0,dvdrental_public_inventory
+AS1_dvdrental_public_inventory.store_id,store_id,store_id,smallint,,,dvdrental_public_inventory
+AS1_dvdrental_public_inventory.inventory_id,inventory_id,inventory_id,integer,1.0,0.0,dvdrental_public_inventory
+AS1_dvdrental_public_inventory.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_inventory
+AS1_dvdrental_public_language.name,name,name,character,,,dvdrental_public_language
+AS1_dvdrental_public_language.language_id,language_id,language_id,integer,1.0,0.0,dvdrental_public_language
+AS1_dvdrental_public_language.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_language
+AS1_dvdrental_public_payment.customer_id,customer_id,customer_id,smallint,0.0,1.0,dvdrental_public_payment
+AS1_dvdrental_public_payment.staff_id,staff_id,staff_id,smallint,0.0,1.0,dvdrental_public_payment
+AS1_dvdrental_public_payment.rental_id,rental_id,rental_id,integer,0.0,1.0,dvdrental_public_payment
+AS1_dvdrental_public_payment.amount,amount,amount,numeric,,,dvdrental_public_payment
+AS1_dvdrental_public_payment.payment_date,payment_date,payment_date,timestamp without time zone,,,dvdrental_public_payment
+AS1_dvdrental_public_payment.payment_id,payment_id,payment_id,integer,1.0,0.0,dvdrental_public_payment
+AS1_dvdrental_public_rental.rental_date,rental_date,rental_date,timestamp without time zone,,,dvdrental_public_rental
+AS1_dvdrental_public_rental.inventory_id,inventory_id,inventory_id,integer,0.0,1.0,dvdrental_public_rental
+AS1_dvdrental_public_rental.customer_id,customer_id,customer_id,smallint,0.0,1.0,dvdrental_public_rental
+AS1_dvdrental_public_rental.return_date,return_date,return_date,timestamp without time zone,,,dvdrental_public_rental
+AS1_dvdrental_public_rental.staff_id,staff_id,staff_id,smallint,0.0,1.0,dvdrental_public_rental
+AS1_dvdrental_public_rental.rental_id,rental_id,rental_id,integer,1.0,0.0,dvdrental_public_rental
+AS1_dvdrental_public_rental.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_rental
+AS1_dvdrental_public_staff.first_name,first_name,first_name,character varying,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.last_name,last_name,last_name,character varying,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.address_id,address_id,address_id,smallint,0.0,1.0,dvdrental_public_staff
+AS1_dvdrental_public_staff.email,email,email,character varying,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.store_id,store_id,store_id,smallint,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.username,username,username,character varying,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.password,password,password,character varying,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.picture,picture,picture,bytea,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.staff_id,staff_id,staff_id,integer,1.0,0.0,dvdrental_public_staff
+AS1_dvdrental_public_staff.active,active,active,boolean,,,dvdrental_public_staff
+AS1_dvdrental_public_staff.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_staff
+AS1_dvdrental_public_store.manager_staff_id,manager_staff_id,manager_staff_id,smallint,0.0,1.0,dvdrental_public_store
+AS1_dvdrental_public_store.address_id,address_id,address_id,smallint,0.0,1.0,dvdrental_public_store
+AS1_dvdrental_public_store.store_id,store_id,store_id,integer,1.0,0.0,dvdrental_public_store
+AS1_dvdrental_public_store.last_update,last_update,last_update,timestamp without time zone,,,dvdrental_public_store
+AS2_flights_bookings_aircrafts.aircraft_code,aircraft_code,aircraft_code,character,1.0,0.0,flights_bookings_aircrafts
+AS2_flights_bookings_aircrafts.model,model,model,text,,,flights_bookings_aircrafts
+AS2_flights_bookings_aircrafts.range,range,range,integer,,,flights_bookings_aircrafts
+AS2_flights_bookings_airports.airport_code,airport_code,airport_code,character,1.0,0.0,flights_bookings_airports
+AS2_flights_bookings_airports.airport_name,airport_name,airport_name,text,,,flights_bookings_airports
+AS2_flights_bookings_airports.city,city,city,text,,,flights_bookings_airports
+AS2_flights_bookings_airports.longitude,longitude,longitude,double precision,,,flights_bookings_airports
+AS2_flights_bookings_airports.latitude,latitude,latitude,double precision,,,flights_bookings_airports
+AS2_flights_bookings_airports.timezone,timezone,timezone,text,,,flights_bookings_airports
+AS2_flights_bookings_boarding_passes.ticket_no,ticket_no,ticket_no,character,1.0,1.0,flights_bookings_boarding_passes
+AS2_flights_bookings_boarding_passes.flight_id,flight_id,flight_id,integer,1.0,1.0,flights_bookings_boarding_passes
+AS2_flights_bookings_boarding_passes.boarding_no,boarding_no,boarding_no,integer,0.0,0.0,flights_bookings_boarding_passes
+AS2_flights_bookings_boarding_passes.seat_no,seat_no,seat_no,character varying,0.0,0.0,flights_bookings_boarding_passes
+AS2_flights_bookings_bookings.book_ref,book_ref,book_ref,character,1.0,0.0,flights_bookings_bookings
+AS2_flights_bookings_bookings.book_date,book_date,book_date,timestamp with time zone,,,flights_bookings_bookings
+AS2_flights_bookings_bookings.total_amount,total_amount,total_amount,numeric,,,flights_bookings_bookings
+AS2_flights_bookings_flights.flight_no,flight_no,flight_no,character,0.0,0.0,flights_bookings_flights
+AS2_flights_bookings_flights.scheduled_departure,scheduled_departure,scheduled_departure,timestamp with time zone,0.0,0.0,flights_bookings_flights
+AS2_flights_bookings_flights.scheduled_arrival,scheduled_arrival,scheduled_arrival,timestamp with time zone,,,flights_bookings_flights
+AS2_flights_bookings_flights.departure_airport,departure_airport,departure_airport,character,0.0,1.0,flights_bookings_flights
+AS2_flights_bookings_flights.arrival_airport,arrival_airport,arrival_airport,character,0.0,1.0,flights_bookings_flights
+AS2_flights_bookings_flights.status,status,status,character varying,,,flights_bookings_flights
+AS2_flights_bookings_flights.aircraft_code,aircraft_code,aircraft_code,character,0.0,1.0,flights_bookings_flights
+AS2_flights_bookings_flights.actual_departure,actual_departure,actual_departure,timestamp with time zone,,,flights_bookings_flights
+AS2_flights_bookings_flights.actual_arrival,actual_arrival,actual_arrival,timestamp with time zone,,,flights_bookings_flights
+AS2_flights_bookings_seats.aircraft_code,aircraft_code,aircraft_code,character,1.0,1.0,flights_bookings_seats
+AS2_flights_bookings_seats.seat_no,seat_no,seat_no,character varying,1.0,0.0,flights_bookings_seats
+AS2_flights_bookings_seats.fare_conditions,fare_conditions,fare_conditions,character varying,,,flights_bookings_seats
+AS2_flights_bookings_ticket_flights.ticket_no,ticket_no,ticket_no,character,1.0,1.0,flights_bookings_ticket_flights
+AS2_flights_bookings_ticket_flights.flight_id,flight_id,flight_id,integer,1.0,1.0,flights_bookings_ticket_flights
+AS2_flights_bookings_ticket_flights.fare_conditions,fare_conditions,fare_conditions,character varying,,,flights_bookings_ticket_flights
+AS2_flights_bookings_ticket_flights.amount,amount,amount,numeric,,,flights_bookings_ticket_flights
+AS2_flights_bookings_tickets.ticket_no,ticket_no,ticket_no,character,1.0,0.0,flights_bookings_tickets
+AS2_flights_bookings_tickets.book_ref,book_ref,book_ref,character,0.0,1.0,flights_bookings_tickets
+AS2_flights_bookings_tickets.passenger_id,passenger_id,passenger_id,character varying,,,flights_bookings_tickets
+AS2_flights_bookings_tickets.passenger_name,passenger_name,passenger_name,text,,,flights_bookings_tickets
+AS2_flights_bookings_tickets.contact_data,contact_data,contact_data,jsonb,,,flights_bookings_tickets
+AS2_flights_bookings_flights.flight_id,flight_id,flight_id,integer,1.0,0.0,flights_bookings_flights

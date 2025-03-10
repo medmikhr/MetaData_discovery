@@ -1,0 +1,996 @@
+{
+  "seaf.ia.physical_attributes": {
+    "AS1_dvdrental_public_customer.store_id": {
+      "title": "store_id",
+      "description": "store_id",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.first_name": {
+      "title": "first_name",
+      "description": "first_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.last_name": {
+      "title": "last_name",
+      "description": "last_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.email": {
+      "title": "email",
+      "description": "email",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.address_id": {
+      "title": "address_id",
+      "description": "address_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.active": {
+      "title": "active",
+      "description": "active",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.customer_id": {
+      "title": "customer_id",
+      "description": "customer_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.activebool": {
+      "title": "activebool",
+      "description": "activebool",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.create_date": {
+      "title": "create_date",
+      "description": "create_date",
+      "type": "date",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_customer.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_customer"
+    },
+    "AS1_dvdrental_public_actor.first_name": {
+      "title": "first_name",
+      "description": "first_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_actor.last_name": {
+      "title": "last_name",
+      "description": "last_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_actor.actor_id": {
+      "title": "actor_id",
+      "description": "actor_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_actor.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_actor"
+    },
+    "AS1_dvdrental_public_category.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_category"
+    },
+    "AS1_dvdrental_public_category.category_id": {
+      "title": "category_id",
+      "description": "category_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_category"
+    },
+    "AS1_dvdrental_public_category.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_category"
+    },
+    "AS1_dvdrental_public_film.title": {
+      "title": "title",
+      "description": "title",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.description": {
+      "title": "description",
+      "description": "description",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.release_year": {
+      "title": "release_year",
+      "description": "release_year",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.language_id": {
+      "title": "language_id",
+      "description": "language_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.length": {
+      "title": "length",
+      "description": "length",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.special_features": {
+      "title": "special_features",
+      "description": "special_features",
+      "type": "ARRAY",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.fulltext": {
+      "title": "fulltext",
+      "description": "fulltext",
+      "type": "tsvector",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.film_id": {
+      "title": "film_id",
+      "description": "film_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.rental_duration": {
+      "title": "rental_duration",
+      "description": "rental_duration",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.rental_rate": {
+      "title": "rental_rate",
+      "description": "rental_rate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.replacement_cost": {
+      "title": "replacement_cost",
+      "description": "replacement_cost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.rating": {
+      "title": "rating",
+      "description": "rating",
+      "type": "USER-DEFINED",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film"
+    },
+    "AS1_dvdrental_public_film_actor.actor_id": {
+      "title": "actor_id",
+      "description": "actor_id",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_film_actor"
+    },
+    "AS1_dvdrental_public_film_actor.film_id": {
+      "title": "film_id",
+      "description": "film_id",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_film_actor"
+    },
+    "AS1_dvdrental_public_film_actor.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film_actor"
+    },
+    "AS1_dvdrental_public_film_category.film_id": {
+      "title": "film_id",
+      "description": "film_id",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_film_category"
+    },
+    "AS1_dvdrental_public_film_category.category_id": {
+      "title": "category_id",
+      "description": "category_id",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_film_category"
+    },
+    "AS1_dvdrental_public_film_category.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_film_category"
+    },
+    "AS1_dvdrental_public_address.address": {
+      "title": "address",
+      "description": "address",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.address2": {
+      "title": "address2",
+      "description": "address2",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.district": {
+      "title": "district",
+      "description": "district",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.city_id": {
+      "title": "city_id",
+      "description": "city_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.postal_code": {
+      "title": "postal_code",
+      "description": "postal_code",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.phone": {
+      "title": "phone",
+      "description": "phone",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.address_id": {
+      "title": "address_id",
+      "description": "address_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_address.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_address"
+    },
+    "AS1_dvdrental_public_city.city": {
+      "title": "city",
+      "description": "city",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_city.country_id": {
+      "title": "country_id",
+      "description": "country_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_city.city_id": {
+      "title": "city_id",
+      "description": "city_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_city.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_city"
+    },
+    "AS1_dvdrental_public_country.country": {
+      "title": "country",
+      "description": "country",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_country"
+    },
+    "AS1_dvdrental_public_country.country_id": {
+      "title": "country_id",
+      "description": "country_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_country"
+    },
+    "AS1_dvdrental_public_country.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_country"
+    },
+    "AS1_dvdrental_public_inventory.film_id": {
+      "title": "film_id",
+      "description": "film_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_inventory.store_id": {
+      "title": "store_id",
+      "description": "store_id",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_inventory.inventory_id": {
+      "title": "inventory_id",
+      "description": "inventory_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_inventory.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_inventory"
+    },
+    "AS1_dvdrental_public_language.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_language"
+    },
+    "AS1_dvdrental_public_language.language_id": {
+      "title": "language_id",
+      "description": "language_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_language"
+    },
+    "AS1_dvdrental_public_language.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_language"
+    },
+    "AS1_dvdrental_public_payment.customer_id": {
+      "title": "customer_id",
+      "description": "customer_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_payment.staff_id": {
+      "title": "staff_id",
+      "description": "staff_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_payment.rental_id": {
+      "title": "rental_id",
+      "description": "rental_id",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_payment.amount": {
+      "title": "amount",
+      "description": "amount",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_payment.payment_date": {
+      "title": "payment_date",
+      "description": "payment_date",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_payment.payment_id": {
+      "title": "payment_id",
+      "description": "payment_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_payment"
+    },
+    "AS1_dvdrental_public_rental.rental_date": {
+      "title": "rental_date",
+      "description": "rental_date",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.inventory_id": {
+      "title": "inventory_id",
+      "description": "inventory_id",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.customer_id": {
+      "title": "customer_id",
+      "description": "customer_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.return_date": {
+      "title": "return_date",
+      "description": "return_date",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.staff_id": {
+      "title": "staff_id",
+      "description": "staff_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.rental_id": {
+      "title": "rental_id",
+      "description": "rental_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_rental.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_rental"
+    },
+    "AS1_dvdrental_public_staff.first_name": {
+      "title": "first_name",
+      "description": "first_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.last_name": {
+      "title": "last_name",
+      "description": "last_name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.address_id": {
+      "title": "address_id",
+      "description": "address_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.email": {
+      "title": "email",
+      "description": "email",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.store_id": {
+      "title": "store_id",
+      "description": "store_id",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.username": {
+      "title": "username",
+      "description": "username",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.password": {
+      "title": "password",
+      "description": "password",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.picture": {
+      "title": "picture",
+      "description": "picture",
+      "type": "bytea",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.staff_id": {
+      "title": "staff_id",
+      "description": "staff_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.active": {
+      "title": "active",
+      "description": "active",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_staff.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_staff"
+    },
+    "AS1_dvdrental_public_store.manager_staff_id": {
+      "title": "manager_staff_id",
+      "description": "manager_staff_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_store"
+    },
+    "AS1_dvdrental_public_store.address_id": {
+      "title": "address_id",
+      "description": "address_id",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "dvdrental_public_store"
+    },
+    "AS1_dvdrental_public_store.store_id": {
+      "title": "store_id",
+      "description": "store_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "dvdrental_public_store"
+    },
+    "AS1_dvdrental_public_store.last_update": {
+      "title": "last_update",
+      "description": "last_update",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "dvdrental_public_store"
+    },
+    "AS2_flights_bookings_aircrafts.aircraft_code": {
+      "title": "aircraft_code",
+      "description": "aircraft_code",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_aircrafts"
+    },
+    "AS2_flights_bookings_aircrafts.model": {
+      "title": "model",
+      "description": "model",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_aircrafts"
+    },
+    "AS2_flights_bookings_aircrafts.range": {
+      "title": "range",
+      "description": "range",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_aircrafts"
+    },
+    "AS2_flights_bookings_airports.airport_code": {
+      "title": "airport_code",
+      "description": "airport_code",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_airports.airport_name": {
+      "title": "airport_name",
+      "description": "airport_name",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_airports.city": {
+      "title": "city",
+      "description": "city",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_airports.longitude": {
+      "title": "longitude",
+      "description": "longitude",
+      "type": "double precision",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_airports.latitude": {
+      "title": "latitude",
+      "description": "latitude",
+      "type": "double precision",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_airports.timezone": {
+      "title": "timezone",
+      "description": "timezone",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_airports"
+    },
+    "AS2_flights_bookings_boarding_passes.ticket_no": {
+      "title": "ticket_no",
+      "description": "ticket_no",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_boarding_passes.flight_id": {
+      "title": "flight_id",
+      "description": "flight_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_boarding_passes.boarding_no": {
+      "title": "boarding_no",
+      "description": "boarding_no",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_boarding_passes.seat_no": {
+      "title": "seat_no",
+      "description": "seat_no",
+      "type": "character varying",
+      "pk_flag": 0.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_boarding_passes"
+    },
+    "AS2_flights_bookings_bookings.book_ref": {
+      "title": "book_ref",
+      "description": "book_ref",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_bookings"
+    },
+    "AS2_flights_bookings_bookings.book_date": {
+      "title": "book_date",
+      "description": "book_date",
+      "type": "timestamp with time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_bookings"
+    },
+    "AS2_flights_bookings_bookings.total_amount": {
+      "title": "total_amount",
+      "description": "total_amount",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_bookings"
+    },
+    "AS2_flights_bookings_flights.flight_no": {
+      "title": "flight_no",
+      "description": "flight_no",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.scheduled_departure": {
+      "title": "scheduled_departure",
+      "description": "scheduled_departure",
+      "type": "timestamp with time zone",
+      "pk_flag": 0.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.scheduled_arrival": {
+      "title": "scheduled_arrival",
+      "description": "scheduled_arrival",
+      "type": "timestamp with time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.departure_airport": {
+      "title": "departure_airport",
+      "description": "departure_airport",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.arrival_airport": {
+      "title": "arrival_airport",
+      "description": "arrival_airport",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.status": {
+      "title": "status",
+      "description": "status",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.aircraft_code": {
+      "title": "aircraft_code",
+      "description": "aircraft_code",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.actual_departure": {
+      "title": "actual_departure",
+      "description": "actual_departure",
+      "type": "timestamp with time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_flights.actual_arrival": {
+      "title": "actual_arrival",
+      "description": "actual_arrival",
+      "type": "timestamp with time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_flights"
+    },
+    "AS2_flights_bookings_seats.aircraft_code": {
+      "title": "aircraft_code",
+      "description": "aircraft_code",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_seats"
+    },
+    "AS2_flights_bookings_seats.seat_no": {
+      "title": "seat_no",
+      "description": "seat_no",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_seats"
+    },
+    "AS2_flights_bookings_seats.fare_conditions": {
+      "title": "fare_conditions",
+      "description": "fare_conditions",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_seats"
+    },
+    "AS2_flights_bookings_ticket_flights.ticket_no": {
+      "title": "ticket_no",
+      "description": "ticket_no",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_ticket_flights.flight_id": {
+      "title": "flight_id",
+      "description": "flight_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_ticket_flights.fare_conditions": {
+      "title": "fare_conditions",
+      "description": "fare_conditions",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_ticket_flights.amount": {
+      "title": "amount",
+      "description": "amount",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_ticket_flights"
+    },
+    "AS2_flights_bookings_tickets.ticket_no": {
+      "title": "ticket_no",
+      "description": "ticket_no",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_tickets.book_ref": {
+      "title": "book_ref",
+      "description": "book_ref",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_tickets.passenger_id": {
+      "title": "passenger_id",
+      "description": "passenger_id",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_tickets.passenger_name": {
+      "title": "passenger_name",
+      "description": "passenger_name",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_tickets.contact_data": {
+      "title": "contact_data",
+      "description": "contact_data",
+      "type": "jsonb",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "flights_bookings_tickets"
+    },
+    "AS2_flights_bookings_flights.flight_id": {
+      "title": "flight_id",
+      "description": "flight_id",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "flights_bookings_flights"
+    }
+  }
+}

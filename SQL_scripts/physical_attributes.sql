@@ -1,12 +1,15 @@
 select
-col.column_name,
+col.column_name as title,
+col.column_name as description,
 col.type,
 constr.pk_flag,
 constr.fk_flag,
-concat(col.table_schema, '_', col.table_name) as table
+concat(col.table_catalog, '_', col.table_schema, '_', col.table_name, '.', col.column_name) as id,
+concat(col.table_catalog, '_', col.table_schema, '_', col.table_name) as physical_table
 from
 (
 	select
+		t.table_catalog as table_catalog,
 		t.table_schema as table_schema,
 		t.table_name as table_name,
 		c.column_name as column_name,

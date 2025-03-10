@@ -1,4 +1,13 @@
+import psycopg2
 from configparser import ConfigParser
+
+SEAF_PREFIX = 'seaf.ia.'
+
+def get_sections(filename='DB_configs/database.ini'):
+    config = ConfigParser()
+    config.read(filename)
+    sections = config.sections()
+    return sections
 
 
 def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
@@ -15,10 +24,20 @@ def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
 
     return configdict
 
-def get_sections(filename='DB_configs/user_options.ini'):
-    parser = ConfigParser(allow_no_value=True, allow_unnamed_section=True)
-    parser.read(filename)
 
-    parser.getboolean()
+def db_connect(config):
+    try:
+        with psycopg2.connect(**config) as conn:
+            print('Connected to the PostgresSQL server.')
+            return conn
+    except (psycopg2.DatabaseError, Exception) as error:
+        print(error)
 
-    return configdict
+# def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
+#     parser = ConfigParser()
+#     parser.read(filename)
+#     configdict = {}
+#     params = parser.items(section)
+#     for param in params:
+#         configdict[param[0]] = param[1]
+#     return configdict
