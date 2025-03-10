@@ -1,7 +1,6 @@
 import psycopg2
 from configparser import ConfigParser
 
-SEAF_PREFIX = 'seaf.ia.'
 
 def get_sections(filename='DB_configs/database.ini'):
     config = ConfigParser()
@@ -32,12 +31,3 @@ def db_connect(config):
             return conn
     except (psycopg2.DatabaseError, Exception) as error:
         print(error)
-
-# def load_config(filename='DB_configs/database.ini', section='psql_dvd'):
-#     parser = ConfigParser()
-#     parser.read(filename)
-#     configdict = {}
-#     params = parser.items(section)
-#     for param in params:
-#         configdict[param[0]] = param[1]
-#     return configdict
