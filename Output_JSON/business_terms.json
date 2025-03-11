@@ -91,6 +91,278 @@
     "AS2_flights_bookings_bookings": {
       "title": "bookings",
       "description": "bookings"
+    },
+    "AS3_Adventureworks_person_addresstype": {
+      "title": "addresstype",
+      "description": "addresstype"
+    },
+    "AS3_Adventureworks_person_businessentity": {
+      "title": "businessentity",
+      "description": "businessentity"
+    },
+    "AS3_Adventureworks_person_address": {
+      "title": "address",
+      "description": "address"
+    },
+    "AS3_Adventureworks_person_businessentityaddress": {
+      "title": "businessentityaddress",
+      "description": "businessentityaddress"
+    },
+    "AS3_Adventureworks_person_person": {
+      "title": "person",
+      "description": "person"
+    },
+    "AS3_Adventureworks_person_businessentitycontact": {
+      "title": "businessentitycontact",
+      "description": "businessentitycontact"
+    },
+    "AS3_Adventureworks_person_contacttype": {
+      "title": "contacttype",
+      "description": "contacttype"
+    },
+    "AS3_Adventureworks_person_emailaddress": {
+      "title": "emailaddress",
+      "description": "emailaddress"
+    },
+    "AS3_Adventureworks_person_password": {
+      "title": "password",
+      "description": "password"
+    },
+    "AS3_Adventureworks_person_phonenumbertype": {
+      "title": "phonenumbertype",
+      "description": "phonenumbertype"
+    },
+    "AS3_Adventureworks_person_stateprovince": {
+      "title": "stateprovince",
+      "description": "stateprovince"
+    },
+    "AS3_Adventureworks_person_countryregion": {
+      "title": "countryregion",
+      "description": "countryregion"
+    },
+    "AS3_Adventureworks_humanresources_employee": {
+      "title": "employee",
+      "description": "employee"
+    },
+    "AS3_Adventureworks_humanresources_department": {
+      "title": "department",
+      "description": "department"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory": {
+      "title": "employeedepartmenthistory",
+      "description": "employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_person_personphone": {
+      "title": "personphone",
+      "description": "personphone"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory": {
+      "title": "employeepayhistory",
+      "description": "employeepayhistory"
+    },
+    "AS3_Adventureworks_production_billofmaterials": {
+      "title": "billofmaterials",
+      "description": "billofmaterials"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate": {
+      "title": "jobcandidate",
+      "description": "jobcandidate"
+    },
+    "AS3_Adventureworks_production_document": {
+      "title": "document",
+      "description": "document"
+    },
+    "AS3_Adventureworks_humanresources_shift": {
+      "title": "shift",
+      "description": "shift"
+    },
+    "AS3_Adventureworks_production_productsubcategory": {
+      "title": "productsubcategory",
+      "description": "productsubcategory"
+    },
+    "AS3_Adventureworks_production_culture": {
+      "title": "culture",
+      "description": "culture"
+    },
+    "AS3_Adventureworks_production_productcategory": {
+      "title": "productcategory",
+      "description": "productcategory"
+    },
+    "AS3_Adventureworks_production_location": {
+      "title": "location",
+      "description": "location"
+    },
+    "AS3_Adventureworks_production_productdescription": {
+      "title": "productdescription",
+      "description": "productdescription"
+    },
+    "AS3_Adventureworks_production_productmodel": {
+      "title": "productmodel",
+      "description": "productmodel"
+    },
+    "AS3_Adventureworks_production_product": {
+      "title": "product",
+      "description": "product"
+    },
+    "AS3_Adventureworks_production_productinventory": {
+      "title": "productinventory",
+      "description": "productinventory"
+    },
+    "AS3_Adventureworks_production_productcosthistory": {
+      "title": "productcosthistory",
+      "description": "productcosthistory"
+    },
+    "AS3_Adventureworks_production_productdocument": {
+      "title": "productdocument",
+      "description": "productdocument"
+    },
+    "AS3_Adventureworks_production_illustration": {
+      "title": "illustration",
+      "description": "illustration"
+    },
+    "AS3_Adventureworks_production_productmodelillustration": {
+      "title": "productmodelillustration",
+      "description": "productmodelillustration"
+    },
+    "AS3_Adventureworks_production_productphoto": {
+      "title": "productphoto",
+      "description": "productphoto"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture": {
+      "title": "productmodelproductdescriptionculture",
+      "description": "productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productproductphoto": {
+      "title": "productproductphoto",
+      "description": "productproductphoto"
+    },
+    "AS3_Adventureworks_production_unitmeasure": {
+      "title": "unitmeasure",
+      "description": "unitmeasure"
+    },
+    "AS3_Adventureworks_production_productreview": {
+      "title": "productreview",
+      "description": "productreview"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive": {
+      "title": "transactionhistoryarchive",
+      "description": "transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_purchasing_productvendor": {
+      "title": "productvendor",
+      "description": "productvendor"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail": {
+      "title": "purchaseorderdetail",
+      "description": "purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader": {
+      "title": "purchaseorderheader",
+      "description": "purchaseorderheader"
+    },
+    "AS3_Adventureworks_production_transactionhistory": {
+      "title": "transactionhistory",
+      "description": "transactionhistory"
+    },
+    "AS3_Adventureworks_production_workorder": {
+      "title": "workorder",
+      "description": "workorder"
+    },
+    "AS3_Adventureworks_production_scrapreason": {
+      "title": "scrapreason",
+      "description": "scrapreason"
+    },
+    "AS3_Adventureworks_production_workorderrouting": {
+      "title": "workorderrouting",
+      "description": "workorderrouting"
+    },
+    "AS3_Adventureworks_sales_salesorderheadersalesreason": {
+      "title": "salesorderheadersalesreason",
+      "description": "salesorderheadersalesreason"
+    },
+    "AS3_Adventureworks_sales_countryregioncurrency": {
+      "title": "countryregioncurrency",
+      "description": "countryregioncurrency"
+    },
+    "AS3_Adventureworks_sales_currency": {
+      "title": "currency",
+      "description": "currency"
+    },
+    "AS3_Adventureworks_sales_currencyrate": {
+      "title": "currencyrate",
+      "description": "currencyrate"
+    },
+    "AS3_Adventureworks_sales_creditcard": {
+      "title": "creditcard",
+      "description": "creditcard"
+    },
+    "AS3_Adventureworks_sales_personcreditcard": {
+      "title": "personcreditcard",
+      "description": "personcreditcard"
+    },
+    "AS3_Adventureworks_sales_customer": {
+      "title": "customer",
+      "description": "customer"
+    },
+    "AS3_Adventureworks_purchasing_vendor": {
+      "title": "vendor",
+      "description": "vendor"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod": {
+      "title": "shipmethod",
+      "description": "shipmethod"
+    },
+    "AS3_Adventureworks_sales_salesorderheader": {
+      "title": "salesorderheader",
+      "description": "salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail": {
+      "title": "salesorderdetail",
+      "description": "salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesperson": {
+      "title": "salesperson",
+      "description": "salesperson"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory": {
+      "title": "salespersonquotahistory",
+      "description": "salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salesterritory": {
+      "title": "salesterritory",
+      "description": "salesterritory"
+    },
+    "AS3_Adventureworks_sales_salestaxrate": {
+      "title": "salestaxrate",
+      "description": "salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory": {
+      "title": "salesterritoryhistory",
+      "description": "salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct": {
+      "title": "specialofferproduct",
+      "description": "specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_salesreason": {
+      "title": "salesreason",
+      "description": "salesreason"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem": {
+      "title": "shoppingcartitem",
+      "description": "shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_specialoffer": {
+      "title": "specialoffer",
+      "description": "specialoffer"
+    },
+    "AS3_Adventureworks_sales_store": {
+      "title": "store",
+      "description": "store"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory": {
+      "title": "productlistpricehistory",
+      "description": "productlistpricehistory"
     }
   }
 }

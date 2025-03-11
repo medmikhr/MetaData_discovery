@@ -7,6 +7,7 @@
       "description": "actor",
       "size": 200.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_actor"
     },
     "AS1_dvdrental_public_store": {
@@ -16,6 +17,7 @@
       "description": "store",
       "size": 2.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_store"
     },
     "AS1_dvdrental_public_address": {
@@ -25,6 +27,7 @@
       "description": "address",
       "size": 603.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_address"
     },
     "AS1_dvdrental_public_category": {
@@ -34,6 +37,7 @@
       "description": "category",
       "size": 16.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_category"
     },
     "AS1_dvdrental_public_city": {
@@ -43,6 +47,7 @@
       "description": "city",
       "size": 600.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_city"
     },
     "AS1_dvdrental_public_country": {
@@ -52,6 +57,7 @@
       "description": "country",
       "size": 109.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_country"
     },
     "AS1_dvdrental_public_customer": {
@@ -61,6 +67,7 @@
       "description": "customer",
       "size": 599.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_customer"
     },
     "AS1_dvdrental_public_film_actor": {
@@ -70,6 +77,7 @@
       "description": "film_actor",
       "size": 5462.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_film_actor"
     },
     "AS1_dvdrental_public_film_category": {
@@ -79,6 +87,7 @@
       "description": "film_category",
       "size": 1000.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_film_category"
     },
     "AS1_dvdrental_public_inventory": {
@@ -88,6 +97,7 @@
       "description": "inventory",
       "size": 4581.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_inventory"
     },
     "AS1_dvdrental_public_language": {
@@ -97,6 +107,7 @@
       "description": "language",
       "size": 6.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_language"
     },
     "AS1_dvdrental_public_rental": {
@@ -106,6 +117,7 @@
       "description": "rental",
       "size": 16044.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_rental"
     },
     "AS1_dvdrental_public_staff": {
@@ -115,6 +127,7 @@
       "description": "staff",
       "size": 2.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_staff"
     },
     "AS1_dvdrental_public_payment": {
@@ -124,6 +137,7 @@
       "description": "payment",
       "size": 14596.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_payment"
     },
     "AS1_dvdrental_public_film": {
@@ -133,6 +147,7 @@
       "description": "film",
       "size": 1000.0,
       "system": "AS1",
+      "dbms": "postgres",
       "data_objects": "AS1_dvdrental_public_film"
     },
     "AS2_flights_bookings_ticket_flights": {
@@ -142,6 +157,7 @@
       "description": "ticket_flights",
       "size": 2360335.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_ticket_flights"
     },
     "AS2_flights_bookings_boarding_passes": {
@@ -151,6 +167,7 @@
       "description": "boarding_passes",
       "size": 1894295.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_boarding_passes"
     },
     "AS2_flights_bookings_aircrafts": {
@@ -160,6 +177,7 @@
       "description": "aircrafts",
       "size": 9.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_aircrafts"
     },
     "AS2_flights_bookings_flights": {
@@ -169,6 +187,7 @@
       "description": "flights",
       "size": 65664.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_flights"
     },
     "AS2_flights_bookings_airports": {
@@ -178,6 +197,7 @@
       "description": "airports",
       "size": 104.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_airports"
     },
     "AS2_flights_bookings_seats": {
@@ -187,6 +207,7 @@
       "description": "seats",
       "size": 1339.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_seats"
     },
     "AS2_flights_bookings_tickets": {
@@ -196,6 +217,7 @@
       "description": "tickets",
       "size": 829071.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_tickets"
     },
     "AS2_flights_bookings_bookings": {
@@ -205,7 +227,688 @@
       "description": "bookings",
       "size": 593433.0,
       "system": "AS2",
+      "dbms": "postgres",
       "data_objects": "AS2_flights_bookings_bookings"
+    },
+    "AS3_Adventureworks_person_addresstype": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "addresstype",
+      "description": "addresstype",
+      "size": 6.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_addresstype"
+    },
+    "AS3_Adventureworks_person_businessentity": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "businessentity",
+      "description": "businessentity",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_businessentity"
+    },
+    "AS3_Adventureworks_person_address": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "address",
+      "description": "address",
+      "size": 19614.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_businessentityaddress": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "businessentityaddress",
+      "description": "businessentityaddress",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_person": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "person",
+      "description": "person",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_businessentitycontact": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "businessentitycontact",
+      "description": "businessentitycontact",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_contacttype": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "contacttype",
+      "description": "contacttype",
+      "size": 20.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_contacttype"
+    },
+    "AS3_Adventureworks_person_emailaddress": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "emailaddress",
+      "description": "emailaddress",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_password": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "password",
+      "description": "password",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_phonenumbertype": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "phonenumbertype",
+      "description": "phonenumbertype",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_phonenumbertype"
+    },
+    "AS3_Adventureworks_person_stateprovince": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "stateprovince",
+      "description": "stateprovince",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_countryregion": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "countryregion",
+      "description": "countryregion",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_countryregion"
+    },
+    "AS3_Adventureworks_humanresources_employee": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "employee",
+      "description": "employee",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_department": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "department",
+      "description": "department",
+      "size": 16.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_department"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "employeedepartmenthistory",
+      "description": "employeedepartmenthistory",
+      "size": 296.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_person_personphone": {
+      "database": "Adventureworks",
+      "schema_name": "person",
+      "title": "personphone",
+      "description": "personphone",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_person_personphone"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "employeepayhistory",
+      "description": "employeepayhistory",
+      "size": 316.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_production_billofmaterials": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "billofmaterials",
+      "description": "billofmaterials",
+      "size": 2679.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "jobcandidate",
+      "description": "jobcandidate",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_jobcandidate"
+    },
+    "AS3_Adventureworks_production_document": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "document",
+      "description": "document",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_humanresources_shift": {
+      "database": "Adventureworks",
+      "schema_name": "humanresources",
+      "title": "shift",
+      "description": "shift",
+      "size": 3.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_production_productsubcategory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productsubcategory",
+      "description": "productsubcategory",
+      "size": 37.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_culture": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "culture",
+      "description": "culture",
+      "size": 8.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_culture"
+    },
+    "AS3_Adventureworks_production_productcategory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productcategory",
+      "description": "productcategory",
+      "size": 4.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productcategory"
+    },
+    "AS3_Adventureworks_production_location": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "location",
+      "description": "location",
+      "size": 14.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_productdescription": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productdescription",
+      "description": "productdescription",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productdescription"
+    },
+    "AS3_Adventureworks_production_productmodel": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productmodel",
+      "description": "productmodel",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_product": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "product",
+      "description": "product",
+      "size": 504.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_productinventory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productinventory",
+      "description": "productinventory",
+      "size": 1069.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productcosthistory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productcosthistory",
+      "description": "productcosthistory",
+      "size": 395.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productdocument": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productdocument",
+      "description": "productdocument",
+      "size": 32.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productdocument"
+    },
+    "AS3_Adventureworks_production_illustration": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "illustration",
+      "description": "illustration",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_illustration"
+    },
+    "AS3_Adventureworks_production_productmodelillustration": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productmodelillustration",
+      "description": "productmodelillustration",
+      "size": 7.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productmodelillustration"
+    },
+    "AS3_Adventureworks_production_productphoto": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productphoto",
+      "description": "productphoto",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productmodelproductdescriptionculture",
+      "description": "productmodelproductdescriptionculture",
+      "size": 762.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productproductphoto": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productproductphoto",
+      "description": "productproductphoto",
+      "size": 504.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productproductphoto"
+    },
+    "AS3_Adventureworks_production_unitmeasure": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "unitmeasure",
+      "description": "unitmeasure",
+      "size": 38.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_unitmeasure"
+    },
+    "AS3_Adventureworks_production_productreview": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productreview",
+      "description": "productreview",
+      "size": 4.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "transactionhistoryarchive",
+      "description": "transactionhistoryarchive",
+      "size": 89253.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_purchasing_productvendor": {
+      "database": "Adventureworks",
+      "schema_name": "purchasing",
+      "title": "productvendor",
+      "description": "productvendor",
+      "size": 460.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail": {
+      "database": "Adventureworks",
+      "schema_name": "purchasing",
+      "title": "purchaseorderdetail",
+      "description": "purchaseorderdetail",
+      "size": 8845.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader": {
+      "database": "Adventureworks",
+      "schema_name": "purchasing",
+      "title": "purchaseorderheader",
+      "description": "purchaseorderheader",
+      "size": 4012.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_production_transactionhistory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "transactionhistory",
+      "description": "transactionhistory",
+      "size": 113443.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_workorder": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "workorder",
+      "description": "workorder",
+      "size": 72591.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_scrapreason": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "scrapreason",
+      "description": "scrapreason",
+      "size": 16.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_scrapreason"
+    },
+    "AS3_Adventureworks_production_workorderrouting": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "workorderrouting",
+      "description": "workorderrouting",
+      "size": 67131.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_sales_salesorderheadersalesreason": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesorderheadersalesreason",
+      "description": "salesorderheadersalesreason",
+      "size": 27647.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesorderheadersalesreason"
+    },
+    "AS3_Adventureworks_sales_countryregioncurrency": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "countryregioncurrency",
+      "description": "countryregioncurrency",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_countryregioncurrency"
+    },
+    "AS3_Adventureworks_sales_currency": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "currency",
+      "description": "currency",
+      "size": 105.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_currency"
+    },
+    "AS3_Adventureworks_sales_currencyrate": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "currencyrate",
+      "description": "currencyrate",
+      "size": 13532.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_creditcard": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "creditcard",
+      "description": "creditcard",
+      "size": 19118.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_personcreditcard": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "personcreditcard",
+      "description": "personcreditcard",
+      "size": 19118.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_personcreditcard"
+    },
+    "AS3_Adventureworks_sales_customer": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "customer",
+      "description": "customer",
+      "size": 19820.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_purchasing_vendor": {
+      "database": "Adventureworks",
+      "schema_name": "purchasing",
+      "title": "vendor",
+      "description": "vendor",
+      "size": 104.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod": {
+      "database": "Adventureworks",
+      "schema_name": "purchasing",
+      "title": "shipmethod",
+      "description": "shipmethod",
+      "size": 5.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_sales_salesorderheader": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesorderheader",
+      "description": "salesorderheader",
+      "size": 31465.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesorderdetail",
+      "description": "salesorderdetail",
+      "size": 121317.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesperson": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesperson",
+      "description": "salesperson",
+      "size": 17.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salespersonquotahistory",
+      "description": "salespersonquotahistory",
+      "size": 163.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salesterritory": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesterritory",
+      "description": "salesterritory",
+      "size": 10.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salestaxrate": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salestaxrate",
+      "description": "salestaxrate",
+      "size": 29.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesterritoryhistory",
+      "description": "salesterritoryhistory",
+      "size": 17.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "specialofferproduct",
+      "description": "specialofferproduct",
+      "size": 538.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_salesreason": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "salesreason",
+      "description": "salesreason",
+      "size": 10.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_salesreason"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "shoppingcartitem",
+      "description": "shoppingcartitem",
+      "size": 3.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_specialoffer": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "specialoffer",
+      "description": "specialoffer",
+      "size": 16.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_store": {
+      "database": "Adventureworks",
+      "schema_name": "sales",
+      "title": "store",
+      "description": "store",
+      "size": 0.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory": {
+      "database": "Adventureworks",
+      "schema_name": "production",
+      "title": "productlistpricehistory",
+      "description": "productlistpricehistory",
+      "size": 395.0,
+      "system": "AS3",
+      "dbms": "postgres",
+      "data_objects": "AS3_Adventureworks_production_productlistpricehistory"
     }
   }
 }

@@ -20,7 +20,9 @@ def fetch_query_data(con_cur, query_str):
 
 
 def write_df(df, system, entity = 'physical_tables'):
-    if entity == 'physical_tables': df['system'] = system
+    if entity == 'physical_tables':
+        df['system'] = system
+        df['dbms'] = 'postgres'
     df['id'] = system + '_' + df['id']
     df = df.set_index('id')
     output_path = FP['csv'] + entity + '.csv'

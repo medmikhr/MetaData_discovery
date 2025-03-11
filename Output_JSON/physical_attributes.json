@@ -991,6 +991,3654 @@
       "pk_flag": 1.0,
       "fk_flag": 0.0,
       "physical_table": "flights_bookings_flights"
+    },
+    "AS3_Adventureworks_person_addresstype.addresstypeid": {
+      "title": "addresstypeid",
+      "description": "addresstypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_addresstype"
+    },
+    "AS3_Adventureworks_person_addresstype.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_addresstype"
+    },
+    "AS3_Adventureworks_person_addresstype.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_addresstype"
+    },
+    "AS3_Adventureworks_person_addresstype.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_addresstype"
+    },
+    "AS3_Adventureworks_person_businessentity.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_businessentity"
+    },
+    "AS3_Adventureworks_person_businessentity.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentity"
+    },
+    "AS3_Adventureworks_person_businessentity.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentity"
+    },
+    "AS3_Adventureworks_person_address.addressid": {
+      "title": "addressid",
+      "description": "addressid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.addressline1": {
+      "title": "addressline1",
+      "description": "addressline1",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.addressline2": {
+      "title": "addressline2",
+      "description": "addressline2",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.city": {
+      "title": "city",
+      "description": "city",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.stateprovinceid": {
+      "title": "stateprovinceid",
+      "description": "stateprovinceid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.postalcode": {
+      "title": "postalcode",
+      "description": "postalcode",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.spatiallocation": {
+      "title": "spatiallocation",
+      "description": "spatiallocation",
+      "type": "bytea",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_address.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_address"
+    },
+    "AS3_Adventureworks_person_businessentityaddress.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_businessentityaddress.addressid": {
+      "title": "addressid",
+      "description": "addressid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_businessentityaddress.addresstypeid": {
+      "title": "addresstypeid",
+      "description": "addresstypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_businessentityaddress.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_businessentityaddress.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentityaddress"
+    },
+    "AS3_Adventureworks_person_person.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.persontype": {
+      "title": "persontype",
+      "description": "persontype",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.namestyle": {
+      "title": "namestyle",
+      "description": "namestyle",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.title": {
+      "title": "title",
+      "description": "title",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.firstname": {
+      "title": "firstname",
+      "description": "firstname",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.middlename": {
+      "title": "middlename",
+      "description": "middlename",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.lastname": {
+      "title": "lastname",
+      "description": "lastname",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.suffix": {
+      "title": "suffix",
+      "description": "suffix",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.emailpromotion": {
+      "title": "emailpromotion",
+      "description": "emailpromotion",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.additionalcontactinfo": {
+      "title": "additionalcontactinfo",
+      "description": "additionalcontactinfo",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.demographics": {
+      "title": "demographics",
+      "description": "demographics",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_person.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_person"
+    },
+    "AS3_Adventureworks_person_businessentitycontact.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_businessentitycontact.personid": {
+      "title": "personid",
+      "description": "personid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_businessentitycontact.contacttypeid": {
+      "title": "contacttypeid",
+      "description": "contacttypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_businessentitycontact.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_businessentitycontact.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_businessentitycontact"
+    },
+    "AS3_Adventureworks_person_contacttype.contacttypeid": {
+      "title": "contacttypeid",
+      "description": "contacttypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_contacttype"
+    },
+    "AS3_Adventureworks_person_contacttype.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_contacttype"
+    },
+    "AS3_Adventureworks_person_contacttype.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_contacttype"
+    },
+    "AS3_Adventureworks_person_emailaddress.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_emailaddress.emailaddressid": {
+      "title": "emailaddressid",
+      "description": "emailaddressid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_emailaddress.emailaddress": {
+      "title": "emailaddress",
+      "description": "emailaddress",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_emailaddress.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_emailaddress.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_emailaddress"
+    },
+    "AS3_Adventureworks_person_password.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_password.passwordhash": {
+      "title": "passwordhash",
+      "description": "passwordhash",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_password.passwordsalt": {
+      "title": "passwordsalt",
+      "description": "passwordsalt",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_password.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_password.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_password"
+    },
+    "AS3_Adventureworks_person_phonenumbertype.phonenumbertypeid": {
+      "title": "phonenumbertypeid",
+      "description": "phonenumbertypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_phonenumbertype"
+    },
+    "AS3_Adventureworks_person_phonenumbertype.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_phonenumbertype"
+    },
+    "AS3_Adventureworks_person_phonenumbertype.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_phonenumbertype"
+    },
+    "AS3_Adventureworks_person_stateprovince.stateprovinceid": {
+      "title": "stateprovinceid",
+      "description": "stateprovinceid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.stateprovincecode": {
+      "title": "stateprovincecode",
+      "description": "stateprovincecode",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.countryregioncode": {
+      "title": "countryregioncode",
+      "description": "countryregioncode",
+      "type": "character varying",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.isonlystateprovinceflag": {
+      "title": "isonlystateprovinceflag",
+      "description": "isonlystateprovinceflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_stateprovince.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_stateprovince"
+    },
+    "AS3_Adventureworks_person_countryregion.countryregioncode": {
+      "title": "countryregioncode",
+      "description": "countryregioncode",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_countryregion"
+    },
+    "AS3_Adventureworks_person_countryregion.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_countryregion"
+    },
+    "AS3_Adventureworks_person_countryregion.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_countryregion"
+    },
+    "AS3_Adventureworks_person_personphone.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_personphone"
+    },
+    "AS3_Adventureworks_person_personphone.phonenumber": {
+      "title": "phonenumber",
+      "description": "phonenumber",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_person_personphone"
+    },
+    "AS3_Adventureworks_person_personphone.phonenumbertypeid": {
+      "title": "phonenumbertypeid",
+      "description": "phonenumbertypeid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_person_personphone"
+    },
+    "AS3_Adventureworks_person_personphone.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_person_personphone"
+    },
+    "AS3_Adventureworks_humanresources_employee.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.nationalidnumber": {
+      "title": "nationalidnumber",
+      "description": "nationalidnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.loginid": {
+      "title": "loginid",
+      "description": "loginid",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.jobtitle": {
+      "title": "jobtitle",
+      "description": "jobtitle",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.birthdate": {
+      "title": "birthdate",
+      "description": "birthdate",
+      "type": "date",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.maritalstatus": {
+      "title": "maritalstatus",
+      "description": "maritalstatus",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.gender": {
+      "title": "gender",
+      "description": "gender",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.hiredate": {
+      "title": "hiredate",
+      "description": "hiredate",
+      "type": "date",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.salariedflag": {
+      "title": "salariedflag",
+      "description": "salariedflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.vacationhours": {
+      "title": "vacationhours",
+      "description": "vacationhours",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.sickleavehours": {
+      "title": "sickleavehours",
+      "description": "sickleavehours",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.currentflag": {
+      "title": "currentflag",
+      "description": "currentflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_employee.organizationnode": {
+      "title": "organizationnode",
+      "description": "organizationnode",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employee"
+    },
+    "AS3_Adventureworks_humanresources_department.departmentid": {
+      "title": "departmentid",
+      "description": "departmentid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_department"
+    },
+    "AS3_Adventureworks_humanresources_department.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_department"
+    },
+    "AS3_Adventureworks_humanresources_department.groupname": {
+      "title": "groupname",
+      "description": "groupname",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_department"
+    },
+    "AS3_Adventureworks_humanresources_department.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_department"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.departmentid": {
+      "title": "departmentid",
+      "description": "departmentid",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.shiftid": {
+      "title": "shiftid",
+      "description": "shiftid",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "date",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "date",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeedepartmenthistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employeedepartmenthistory"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory.ratechangedate": {
+      "title": "ratechangedate",
+      "description": "ratechangedate",
+      "type": "timestamp without time zone",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory.rate": {
+      "title": "rate",
+      "description": "rate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory.payfrequency": {
+      "title": "payfrequency",
+      "description": "payfrequency",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_humanresources_employeepayhistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_employeepayhistory"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate.jobcandidateid": {
+      "title": "jobcandidateid",
+      "description": "jobcandidateid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_jobcandidate"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_humanresources_jobcandidate"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate.resume": {
+      "title": "resume",
+      "description": "resume",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_jobcandidate"
+    },
+    "AS3_Adventureworks_humanresources_jobcandidate.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_jobcandidate"
+    },
+    "AS3_Adventureworks_humanresources_shift.shiftid": {
+      "title": "shiftid",
+      "description": "shiftid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_humanresources_shift.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_humanresources_shift.starttime": {
+      "title": "starttime",
+      "description": "starttime",
+      "type": "time without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_humanresources_shift.endtime": {
+      "title": "endtime",
+      "description": "endtime",
+      "type": "time without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_humanresources_shift.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_humanresources_shift"
+    },
+    "AS3_Adventureworks_production_billofmaterials.billofmaterialsid": {
+      "title": "billofmaterialsid",
+      "description": "billofmaterialsid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.productassemblyid": {
+      "title": "productassemblyid",
+      "description": "productassemblyid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.componentid": {
+      "title": "componentid",
+      "description": "componentid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.unitmeasurecode": {
+      "title": "unitmeasurecode",
+      "description": "unitmeasurecode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.bomlevel": {
+      "title": "bomlevel",
+      "description": "bomlevel",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.perassemblyqty": {
+      "title": "perassemblyqty",
+      "description": "perassemblyqty",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_billofmaterials.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_billofmaterials"
+    },
+    "AS3_Adventureworks_production_document.title": {
+      "title": "title",
+      "description": "title",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.owner": {
+      "title": "owner",
+      "description": "owner",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.folderflag": {
+      "title": "folderflag",
+      "description": "folderflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.filename": {
+      "title": "filename",
+      "description": "filename",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.fileextension": {
+      "title": "fileextension",
+      "description": "fileextension",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.revision": {
+      "title": "revision",
+      "description": "revision",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.changenumber": {
+      "title": "changenumber",
+      "description": "changenumber",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.status": {
+      "title": "status",
+      "description": "status",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.documentsummary": {
+      "title": "documentsummary",
+      "description": "documentsummary",
+      "type": "text",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.document": {
+      "title": "document",
+      "description": "document",
+      "type": "bytea",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": 0.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_document.documentnode": {
+      "title": "documentnode",
+      "description": "documentnode",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_document"
+    },
+    "AS3_Adventureworks_production_productsubcategory.productsubcategoryid": {
+      "title": "productsubcategoryid",
+      "description": "productsubcategoryid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_productsubcategory.productcategoryid": {
+      "title": "productcategoryid",
+      "description": "productcategoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_productsubcategory.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_productsubcategory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_productsubcategory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productsubcategory"
+    },
+    "AS3_Adventureworks_production_culture.cultureid": {
+      "title": "cultureid",
+      "description": "cultureid",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_culture"
+    },
+    "AS3_Adventureworks_production_culture.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_culture"
+    },
+    "AS3_Adventureworks_production_culture.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_culture"
+    },
+    "AS3_Adventureworks_production_productcategory.productcategoryid": {
+      "title": "productcategoryid",
+      "description": "productcategoryid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productcategory"
+    },
+    "AS3_Adventureworks_production_productcategory.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcategory"
+    },
+    "AS3_Adventureworks_production_productcategory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcategory"
+    },
+    "AS3_Adventureworks_production_productcategory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcategory"
+    },
+    "AS3_Adventureworks_production_location.locationid": {
+      "title": "locationid",
+      "description": "locationid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_location.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_location.costrate": {
+      "title": "costrate",
+      "description": "costrate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_location.availability": {
+      "title": "availability",
+      "description": "availability",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_location.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_location"
+    },
+    "AS3_Adventureworks_production_productdescription.productdescriptionid": {
+      "title": "productdescriptionid",
+      "description": "productdescriptionid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productdescription"
+    },
+    "AS3_Adventureworks_production_productdescription.description": {
+      "title": "description",
+      "description": "description",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productdescription"
+    },
+    "AS3_Adventureworks_production_productdescription.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productdescription"
+    },
+    "AS3_Adventureworks_production_productdescription.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productdescription"
+    },
+    "AS3_Adventureworks_production_productmodel.productmodelid": {
+      "title": "productmodelid",
+      "description": "productmodelid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_productmodel.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_productmodel.catalogdescription": {
+      "title": "catalogdescription",
+      "description": "catalogdescription",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_productmodel.instructions": {
+      "title": "instructions",
+      "description": "instructions",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_productmodel.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_productmodel.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodel"
+    },
+    "AS3_Adventureworks_production_product.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.productnumber": {
+      "title": "productnumber",
+      "description": "productnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.makeflag": {
+      "title": "makeflag",
+      "description": "makeflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.finishedgoodsflag": {
+      "title": "finishedgoodsflag",
+      "description": "finishedgoodsflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.color": {
+      "title": "color",
+      "description": "color",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.safetystocklevel": {
+      "title": "safetystocklevel",
+      "description": "safetystocklevel",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.reorderpoint": {
+      "title": "reorderpoint",
+      "description": "reorderpoint",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.standardcost": {
+      "title": "standardcost",
+      "description": "standardcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.listprice": {
+      "title": "listprice",
+      "description": "listprice",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.size": {
+      "title": "size",
+      "description": "size",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.sizeunitmeasurecode": {
+      "title": "sizeunitmeasurecode",
+      "description": "sizeunitmeasurecode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.weightunitmeasurecode": {
+      "title": "weightunitmeasurecode",
+      "description": "weightunitmeasurecode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.weight": {
+      "title": "weight",
+      "description": "weight",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.daystomanufacture": {
+      "title": "daystomanufacture",
+      "description": "daystomanufacture",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.productline": {
+      "title": "productline",
+      "description": "productline",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.class": {
+      "title": "class",
+      "description": "class",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.style": {
+      "title": "style",
+      "description": "style",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.productsubcategoryid": {
+      "title": "productsubcategoryid",
+      "description": "productsubcategoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.productmodelid": {
+      "title": "productmodelid",
+      "description": "productmodelid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.sellstartdate": {
+      "title": "sellstartdate",
+      "description": "sellstartdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.sellenddate": {
+      "title": "sellenddate",
+      "description": "sellenddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.discontinueddate": {
+      "title": "discontinueddate",
+      "description": "discontinueddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_product.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_product"
+    },
+    "AS3_Adventureworks_production_productinventory.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.locationid": {
+      "title": "locationid",
+      "description": "locationid",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.shelf": {
+      "title": "shelf",
+      "description": "shelf",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.bin": {
+      "title": "bin",
+      "description": "bin",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.quantity": {
+      "title": "quantity",
+      "description": "quantity",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productinventory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productinventory"
+    },
+    "AS3_Adventureworks_production_productcosthistory.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productcosthistory.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productcosthistory.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productcosthistory.standardcost": {
+      "title": "standardcost",
+      "description": "standardcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productcosthistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productcosthistory"
+    },
+    "AS3_Adventureworks_production_productdocument.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productdocument"
+    },
+    "AS3_Adventureworks_production_productdocument.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productdocument"
+    },
+    "AS3_Adventureworks_production_productdocument.documentnode": {
+      "title": "documentnode",
+      "description": "documentnode",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productdocument"
+    },
+    "AS3_Adventureworks_production_illustration.illustrationid": {
+      "title": "illustrationid",
+      "description": "illustrationid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_illustration"
+    },
+    "AS3_Adventureworks_production_illustration.diagram": {
+      "title": "diagram",
+      "description": "diagram",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_illustration"
+    },
+    "AS3_Adventureworks_production_illustration.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_illustration"
+    },
+    "AS3_Adventureworks_production_productmodelillustration.productmodelid": {
+      "title": "productmodelid",
+      "description": "productmodelid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productmodelillustration"
+    },
+    "AS3_Adventureworks_production_productmodelillustration.illustrationid": {
+      "title": "illustrationid",
+      "description": "illustrationid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productmodelillustration"
+    },
+    "AS3_Adventureworks_production_productmodelillustration.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodelillustration"
+    },
+    "AS3_Adventureworks_production_productphoto.productphotoid": {
+      "title": "productphotoid",
+      "description": "productphotoid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productphoto.thumbnailphoto": {
+      "title": "thumbnailphoto",
+      "description": "thumbnailphoto",
+      "type": "bytea",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productphoto.thumbnailphotofilename": {
+      "title": "thumbnailphotofilename",
+      "description": "thumbnailphotofilename",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productphoto.largephoto": {
+      "title": "largephoto",
+      "description": "largephoto",
+      "type": "bytea",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productphoto.largephotofilename": {
+      "title": "largephotofilename",
+      "description": "largephotofilename",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productphoto.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productphoto"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture.productmodelid": {
+      "title": "productmodelid",
+      "description": "productmodelid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture.productdescriptionid": {
+      "title": "productdescriptionid",
+      "description": "productdescriptionid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture.cultureid": {
+      "title": "cultureid",
+      "description": "cultureid",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productmodelproductdescriptionculture.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productmodelproductdescriptionculture"
+    },
+    "AS3_Adventureworks_production_productproductphoto.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productproductphoto"
+    },
+    "AS3_Adventureworks_production_productproductphoto.productphotoid": {
+      "title": "productphotoid",
+      "description": "productphotoid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productproductphoto"
+    },
+    "AS3_Adventureworks_production_productproductphoto.primary": {
+      "title": "primary",
+      "description": "primary",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productproductphoto"
+    },
+    "AS3_Adventureworks_production_productproductphoto.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productproductphoto"
+    },
+    "AS3_Adventureworks_production_unitmeasure.unitmeasurecode": {
+      "title": "unitmeasurecode",
+      "description": "unitmeasurecode",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_unitmeasure"
+    },
+    "AS3_Adventureworks_production_unitmeasure.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_unitmeasure"
+    },
+    "AS3_Adventureworks_production_unitmeasure.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_unitmeasure"
+    },
+    "AS3_Adventureworks_production_productreview.productreviewid": {
+      "title": "productreviewid",
+      "description": "productreviewid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.reviewername": {
+      "title": "reviewername",
+      "description": "reviewername",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.reviewdate": {
+      "title": "reviewdate",
+      "description": "reviewdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.emailaddress": {
+      "title": "emailaddress",
+      "description": "emailaddress",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.rating": {
+      "title": "rating",
+      "description": "rating",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.comments": {
+      "title": "comments",
+      "description": "comments",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_productreview.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productreview"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.transactionid": {
+      "title": "transactionid",
+      "description": "transactionid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.referenceorderid": {
+      "title": "referenceorderid",
+      "description": "referenceorderid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.referenceorderlineid": {
+      "title": "referenceorderlineid",
+      "description": "referenceorderlineid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.transactiondate": {
+      "title": "transactiondate",
+      "description": "transactiondate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.transactiontype": {
+      "title": "transactiontype",
+      "description": "transactiontype",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.quantity": {
+      "title": "quantity",
+      "description": "quantity",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.actualcost": {
+      "title": "actualcost",
+      "description": "actualcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistoryarchive.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistoryarchive"
+    },
+    "AS3_Adventureworks_production_transactionhistory.transactionid": {
+      "title": "transactionid",
+      "description": "transactionid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.referenceorderid": {
+      "title": "referenceorderid",
+      "description": "referenceorderid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.referenceorderlineid": {
+      "title": "referenceorderlineid",
+      "description": "referenceorderlineid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.transactiondate": {
+      "title": "transactiondate",
+      "description": "transactiondate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.transactiontype": {
+      "title": "transactiontype",
+      "description": "transactiontype",
+      "type": "character",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.quantity": {
+      "title": "quantity",
+      "description": "quantity",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.actualcost": {
+      "title": "actualcost",
+      "description": "actualcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_transactionhistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_transactionhistory"
+    },
+    "AS3_Adventureworks_production_workorder.workorderid": {
+      "title": "workorderid",
+      "description": "workorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.orderqty": {
+      "title": "orderqty",
+      "description": "orderqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.scrappedqty": {
+      "title": "scrappedqty",
+      "description": "scrappedqty",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.duedate": {
+      "title": "duedate",
+      "description": "duedate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.scrapreasonid": {
+      "title": "scrapreasonid",
+      "description": "scrapreasonid",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_workorder.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorder"
+    },
+    "AS3_Adventureworks_production_scrapreason.scrapreasonid": {
+      "title": "scrapreasonid",
+      "description": "scrapreasonid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_scrapreason"
+    },
+    "AS3_Adventureworks_production_scrapreason.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_scrapreason"
+    },
+    "AS3_Adventureworks_production_scrapreason.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_scrapreason"
+    },
+    "AS3_Adventureworks_production_workorderrouting.workorderid": {
+      "title": "workorderid",
+      "description": "workorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.operationsequence": {
+      "title": "operationsequence",
+      "description": "operationsequence",
+      "type": "smallint",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.locationid": {
+      "title": "locationid",
+      "description": "locationid",
+      "type": "smallint",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.scheduledstartdate": {
+      "title": "scheduledstartdate",
+      "description": "scheduledstartdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.scheduledenddate": {
+      "title": "scheduledenddate",
+      "description": "scheduledenddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.actualstartdate": {
+      "title": "actualstartdate",
+      "description": "actualstartdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.actualenddate": {
+      "title": "actualenddate",
+      "description": "actualenddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.actualresourcehrs": {
+      "title": "actualresourcehrs",
+      "description": "actualresourcehrs",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.plannedcost": {
+      "title": "plannedcost",
+      "description": "plannedcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.actualcost": {
+      "title": "actualcost",
+      "description": "actualcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_workorderrouting.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_workorderrouting"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory.listprice": {
+      "title": "listprice",
+      "description": "listprice",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_production_productlistpricehistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.averageleadtime": {
+      "title": "averageleadtime",
+      "description": "averageleadtime",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.standardprice": {
+      "title": "standardprice",
+      "description": "standardprice",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.lastreceiptcost": {
+      "title": "lastreceiptcost",
+      "description": "lastreceiptcost",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.lastreceiptdate": {
+      "title": "lastreceiptdate",
+      "description": "lastreceiptdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.minorderqty": {
+      "title": "minorderqty",
+      "description": "minorderqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.maxorderqty": {
+      "title": "maxorderqty",
+      "description": "maxorderqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.onorderqty": {
+      "title": "onorderqty",
+      "description": "onorderqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.unitmeasurecode": {
+      "title": "unitmeasurecode",
+      "description": "unitmeasurecode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_productvendor.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_productvendor"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.purchaseorderid": {
+      "title": "purchaseorderid",
+      "description": "purchaseorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.purchaseorderdetailid": {
+      "title": "purchaseorderdetailid",
+      "description": "purchaseorderdetailid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.duedate": {
+      "title": "duedate",
+      "description": "duedate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.orderqty": {
+      "title": "orderqty",
+      "description": "orderqty",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.unitprice": {
+      "title": "unitprice",
+      "description": "unitprice",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.receivedqty": {
+      "title": "receivedqty",
+      "description": "receivedqty",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.rejectedqty": {
+      "title": "rejectedqty",
+      "description": "rejectedqty",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderdetail.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderdetail"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.purchaseorderid": {
+      "title": "purchaseorderid",
+      "description": "purchaseorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.revisionnumber": {
+      "title": "revisionnumber",
+      "description": "revisionnumber",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.status": {
+      "title": "status",
+      "description": "status",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.employeeid": {
+      "title": "employeeid",
+      "description": "employeeid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.vendorid": {
+      "title": "vendorid",
+      "description": "vendorid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.shipmethodid": {
+      "title": "shipmethodid",
+      "description": "shipmethodid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.orderdate": {
+      "title": "orderdate",
+      "description": "orderdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.shipdate": {
+      "title": "shipdate",
+      "description": "shipdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.subtotal": {
+      "title": "subtotal",
+      "description": "subtotal",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.taxamt": {
+      "title": "taxamt",
+      "description": "taxamt",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.freight": {
+      "title": "freight",
+      "description": "freight",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_purchaseorderheader.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_purchaseorderheader"
+    },
+    "AS3_Adventureworks_purchasing_vendor.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.accountnumber": {
+      "title": "accountnumber",
+      "description": "accountnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.creditrating": {
+      "title": "creditrating",
+      "description": "creditrating",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.preferredvendorstatus": {
+      "title": "preferredvendorstatus",
+      "description": "preferredvendorstatus",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.activeflag": {
+      "title": "activeflag",
+      "description": "activeflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.purchasingwebserviceurl": {
+      "title": "purchasingwebserviceurl",
+      "description": "purchasingwebserviceurl",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_vendor.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_vendor"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.shipmethodid": {
+      "title": "shipmethodid",
+      "description": "shipmethodid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.shipbase": {
+      "title": "shipbase",
+      "description": "shipbase",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.shiprate": {
+      "title": "shiprate",
+      "description": "shiprate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_purchasing_shipmethod.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_purchasing_shipmethod"
+    },
+    "AS3_Adventureworks_sales_salesorderheadersalesreason.salesorderid": {
+      "title": "salesorderid",
+      "description": "salesorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheadersalesreason"
+    },
+    "AS3_Adventureworks_sales_salesorderheadersalesreason.salesreasonid": {
+      "title": "salesreasonid",
+      "description": "salesreasonid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheadersalesreason"
+    },
+    "AS3_Adventureworks_sales_salesorderheadersalesreason.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheadersalesreason"
+    },
+    "AS3_Adventureworks_sales_countryregioncurrency.countryregioncode": {
+      "title": "countryregioncode",
+      "description": "countryregioncode",
+      "type": "character varying",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_countryregioncurrency"
+    },
+    "AS3_Adventureworks_sales_countryregioncurrency.currencycode": {
+      "title": "currencycode",
+      "description": "currencycode",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_countryregioncurrency"
+    },
+    "AS3_Adventureworks_sales_countryregioncurrency.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_countryregioncurrency"
+    },
+    "AS3_Adventureworks_sales_currency.currencycode": {
+      "title": "currencycode",
+      "description": "currencycode",
+      "type": "character",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_currency"
+    },
+    "AS3_Adventureworks_sales_currency.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currency"
+    },
+    "AS3_Adventureworks_sales_currency.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currency"
+    },
+    "AS3_Adventureworks_sales_currencyrate.currencyrateid": {
+      "title": "currencyrateid",
+      "description": "currencyrateid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.currencyratedate": {
+      "title": "currencyratedate",
+      "description": "currencyratedate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.fromcurrencycode": {
+      "title": "fromcurrencycode",
+      "description": "fromcurrencycode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.tocurrencycode": {
+      "title": "tocurrencycode",
+      "description": "tocurrencycode",
+      "type": "character",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.averagerate": {
+      "title": "averagerate",
+      "description": "averagerate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.endofdayrate": {
+      "title": "endofdayrate",
+      "description": "endofdayrate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_currencyrate.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_currencyrate"
+    },
+    "AS3_Adventureworks_sales_creditcard.creditcardid": {
+      "title": "creditcardid",
+      "description": "creditcardid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_creditcard.cardtype": {
+      "title": "cardtype",
+      "description": "cardtype",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_creditcard.cardnumber": {
+      "title": "cardnumber",
+      "description": "cardnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_creditcard.expmonth": {
+      "title": "expmonth",
+      "description": "expmonth",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_creditcard.expyear": {
+      "title": "expyear",
+      "description": "expyear",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_creditcard.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_creditcard"
+    },
+    "AS3_Adventureworks_sales_personcreditcard.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_personcreditcard"
+    },
+    "AS3_Adventureworks_sales_personcreditcard.creditcardid": {
+      "title": "creditcardid",
+      "description": "creditcardid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_personcreditcard"
+    },
+    "AS3_Adventureworks_sales_personcreditcard.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_personcreditcard"
+    },
+    "AS3_Adventureworks_sales_customer.customerid": {
+      "title": "customerid",
+      "description": "customerid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_customer.personid": {
+      "title": "personid",
+      "description": "personid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_customer.storeid": {
+      "title": "storeid",
+      "description": "storeid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_customer.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_customer.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_customer.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_customer"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.salesorderid": {
+      "title": "salesorderid",
+      "description": "salesorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.revisionnumber": {
+      "title": "revisionnumber",
+      "description": "revisionnumber",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.orderdate": {
+      "title": "orderdate",
+      "description": "orderdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.duedate": {
+      "title": "duedate",
+      "description": "duedate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.shipdate": {
+      "title": "shipdate",
+      "description": "shipdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.status": {
+      "title": "status",
+      "description": "status",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.onlineorderflag": {
+      "title": "onlineorderflag",
+      "description": "onlineorderflag",
+      "type": "boolean",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.purchaseordernumber": {
+      "title": "purchaseordernumber",
+      "description": "purchaseordernumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.accountnumber": {
+      "title": "accountnumber",
+      "description": "accountnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.customerid": {
+      "title": "customerid",
+      "description": "customerid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.salespersonid": {
+      "title": "salespersonid",
+      "description": "salespersonid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.billtoaddressid": {
+      "title": "billtoaddressid",
+      "description": "billtoaddressid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.shiptoaddressid": {
+      "title": "shiptoaddressid",
+      "description": "shiptoaddressid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.shipmethodid": {
+      "title": "shipmethodid",
+      "description": "shipmethodid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.creditcardid": {
+      "title": "creditcardid",
+      "description": "creditcardid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.creditcardapprovalcode": {
+      "title": "creditcardapprovalcode",
+      "description": "creditcardapprovalcode",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.currencyrateid": {
+      "title": "currencyrateid",
+      "description": "currencyrateid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.subtotal": {
+      "title": "subtotal",
+      "description": "subtotal",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.taxamt": {
+      "title": "taxamt",
+      "description": "taxamt",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.freight": {
+      "title": "freight",
+      "description": "freight",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.totaldue": {
+      "title": "totaldue",
+      "description": "totaldue",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.comment": {
+      "title": "comment",
+      "description": "comment",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderheader.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderheader"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.salesorderid": {
+      "title": "salesorderid",
+      "description": "salesorderid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.salesorderdetailid": {
+      "title": "salesorderdetailid",
+      "description": "salesorderdetailid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.carriertrackingnumber": {
+      "title": "carriertrackingnumber",
+      "description": "carriertrackingnumber",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.orderqty": {
+      "title": "orderqty",
+      "description": "orderqty",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.specialofferid": {
+      "title": "specialofferid",
+      "description": "specialofferid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.unitprice": {
+      "title": "unitprice",
+      "description": "unitprice",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.unitpricediscount": {
+      "title": "unitpricediscount",
+      "description": "unitpricediscount",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesorderdetail.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesorderdetail"
+    },
+    "AS3_Adventureworks_sales_salesperson.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.salesquota": {
+      "title": "salesquota",
+      "description": "salesquota",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.bonus": {
+      "title": "bonus",
+      "description": "bonus",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.commissionpct": {
+      "title": "commissionpct",
+      "description": "commissionpct",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.salesytd": {
+      "title": "salesytd",
+      "description": "salesytd",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.saleslastyear": {
+      "title": "saleslastyear",
+      "description": "saleslastyear",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salesperson.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesperson"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory.quotadate": {
+      "title": "quotadate",
+      "description": "quotadate",
+      "type": "timestamp without time zone",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory.salesquota": {
+      "title": "salesquota",
+      "description": "salesquota",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salespersonquotahistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salespersonquotahistory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.countryregioncode": {
+      "title": "countryregioncode",
+      "description": "countryregioncode",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.group": {
+      "title": "group",
+      "description": "group",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.salesytd": {
+      "title": "salesytd",
+      "description": "salesytd",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.saleslastyear": {
+      "title": "saleslastyear",
+      "description": "saleslastyear",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.costytd": {
+      "title": "costytd",
+      "description": "costytd",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.costlastyear": {
+      "title": "costlastyear",
+      "description": "costlastyear",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salesterritory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritory"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.salestaxrateid": {
+      "title": "salestaxrateid",
+      "description": "salestaxrateid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.stateprovinceid": {
+      "title": "stateprovinceid",
+      "description": "stateprovinceid",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.taxtype": {
+      "title": "taxtype",
+      "description": "taxtype",
+      "type": "smallint",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.taxrate": {
+      "title": "taxrate",
+      "description": "taxrate",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salestaxrate.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salestaxrate"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.territoryid": {
+      "title": "territoryid",
+      "description": "territoryid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_salesterritoryhistory.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesterritoryhistory"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct.specialofferid": {
+      "title": "specialofferid",
+      "description": "specialofferid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_specialofferproduct.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialofferproduct"
+    },
+    "AS3_Adventureworks_sales_salesreason.salesreasonid": {
+      "title": "salesreasonid",
+      "description": "salesreasonid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_salesreason"
+    },
+    "AS3_Adventureworks_sales_salesreason.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesreason"
+    },
+    "AS3_Adventureworks_sales_salesreason.reasontype": {
+      "title": "reasontype",
+      "description": "reasontype",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesreason"
+    },
+    "AS3_Adventureworks_sales_salesreason.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_salesreason"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.shoppingcartitemid": {
+      "title": "shoppingcartitemid",
+      "description": "shoppingcartitemid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.shoppingcartid": {
+      "title": "shoppingcartid",
+      "description": "shoppingcartid",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.quantity": {
+      "title": "quantity",
+      "description": "quantity",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.productid": {
+      "title": "productid",
+      "description": "productid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.datecreated": {
+      "title": "datecreated",
+      "description": "datecreated",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_shoppingcartitem.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_shoppingcartitem"
+    },
+    "AS3_Adventureworks_sales_specialoffer.specialofferid": {
+      "title": "specialofferid",
+      "description": "specialofferid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 0.0,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.description": {
+      "title": "description",
+      "description": "description",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.discountpct": {
+      "title": "discountpct",
+      "description": "discountpct",
+      "type": "numeric",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.type": {
+      "title": "type",
+      "description": "type",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.category": {
+      "title": "category",
+      "description": "category",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.startdate": {
+      "title": "startdate",
+      "description": "startdate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.enddate": {
+      "title": "enddate",
+      "description": "enddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.minqty": {
+      "title": "minqty",
+      "description": "minqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.maxqty": {
+      "title": "maxqty",
+      "description": "maxqty",
+      "type": "integer",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_specialoffer.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_specialoffer"
+    },
+    "AS3_Adventureworks_sales_store.businessentityid": {
+      "title": "businessentityid",
+      "description": "businessentityid",
+      "type": "integer",
+      "pk_flag": 1.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_sales_store.name": {
+      "title": "name",
+      "description": "name",
+      "type": "character varying",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_sales_store.salespersonid": {
+      "title": "salespersonid",
+      "description": "salespersonid",
+      "type": "integer",
+      "pk_flag": 0.0,
+      "fk_flag": 1.0,
+      "physical_table": "Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_sales_store.demographics": {
+      "title": "demographics",
+      "description": "demographics",
+      "type": "xml",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_sales_store.rowguid": {
+      "title": "rowguid",
+      "description": "rowguid",
+      "type": "uuid",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_store"
+    },
+    "AS3_Adventureworks_sales_store.modifieddate": {
+      "title": "modifieddate",
+      "description": "modifieddate",
+      "type": "timestamp without time zone",
+      "pk_flag": null,
+      "fk_flag": null,
+      "physical_table": "Adventureworks_sales_store"
     }
   }
 }
