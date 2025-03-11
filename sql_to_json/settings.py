@@ -1,8 +1,6 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve()
-# BASE_DIR = Path(__file__).resolve().parent.parent
-# BASE_DIR = os.getcwd()
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 SEAF_PREFIX = 'seaf.ia.'
 

@@ -4,8 +4,6 @@ import pandas as pd
 
 from sql_to_json.settings import SEAF_PREFIX, FOLDER_PATH as FP
 
-def full_path(folder):
-    return os.path.join(os.getcwd(), folder)
 
 def clear_dfs(dir_path):
     for filename in os.listdir(dir_path):

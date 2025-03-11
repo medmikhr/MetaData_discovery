@@ -1,12 +1,12 @@
 from DB_configs.config import get_sections, db_connect, load_config
 from sql_to_json.get_from_db import create_ph_level
 from sql_to_json.proxy_levels import create_upper_level
-from sql_to_json.file_operations import full_path, clear_dfs, create_json_files
-from sql_to_json.settings import FOLDER_PATH as FP
+from sql_to_json.file_operations import clear_dfs, create_json_files
+from sql_to_json.settings import FOLDER_PATH as FP, BASE_DIR
 
 
 if __name__ == '__main__':
-    dir_path = full_path(FP['csv'])
+    dir_path = BASE_DIR / FP['csv']
 
     clear_dfs(dir_path)
 
