@@ -2,549 +2,1119 @@
   "seaf.ia.logical_entities": {
     "AS1_dvdrental_public_actor": {
       "title": "actor",
-      "description": "actor",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_actor"
     },
+    "AS1_dvdrental_public_actor_info": {
+      "title": "actor_info",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_actor_info"
+    },
+    "AS1_dvdrental_public_customer_list": {
+      "title": "customer_list",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_customer_list"
+    },
+    "AS1_dvdrental_public_film_list": {
+      "title": "film_list",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_film_list"
+    },
+    "AS1_dvdrental_public_nicer_but_slower_film_list": {
+      "title": "nicer_but_slower_film_list",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_nicer_but_slower_film_list"
+    },
+    "AS1_dvdrental_public_sales_by_film_category": {
+      "title": "sales_by_film_category",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_sales_by_film_category"
+    },
     "AS1_dvdrental_public_store": {
       "title": "store",
-      "description": "store",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_store"
     },
+    "AS1_dvdrental_public_sales_by_store": {
+      "title": "sales_by_store",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_sales_by_store"
+    },
+    "AS1_dvdrental_public_staff_list": {
+      "title": "staff_list",
+      "description": null,
+      "master_system": "AS1",
+      "business_objects": "AS1_dvdrental_public_staff_list"
+    },
     "AS1_dvdrental_public_address": {
       "title": "address",
-      "description": "address",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_address"
     },
     "AS1_dvdrental_public_category": {
       "title": "category",
-      "description": "category",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_category"
     },
     "AS1_dvdrental_public_city": {
       "title": "city",
-      "description": "city",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_city"
     },
     "AS1_dvdrental_public_country": {
       "title": "country",
-      "description": "country",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_country"
     },
     "AS1_dvdrental_public_customer": {
       "title": "customer",
-      "description": "customer",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_customer"
     },
     "AS1_dvdrental_public_film_actor": {
       "title": "film_actor",
-      "description": "film_actor",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_film_actor"
     },
     "AS1_dvdrental_public_film_category": {
       "title": "film_category",
-      "description": "film_category",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_film_category"
     },
     "AS1_dvdrental_public_inventory": {
       "title": "inventory",
-      "description": "inventory",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_inventory"
     },
     "AS1_dvdrental_public_language": {
       "title": "language",
-      "description": "language",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_language"
     },
     "AS1_dvdrental_public_rental": {
       "title": "rental",
-      "description": "rental",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_rental"
     },
     "AS1_dvdrental_public_staff": {
       "title": "staff",
-      "description": "staff",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_staff"
     },
     "AS1_dvdrental_public_payment": {
       "title": "payment",
-      "description": "payment",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_payment"
     },
     "AS1_dvdrental_public_film": {
       "title": "film",
-      "description": "film",
+      "description": null,
       "master_system": "AS1",
       "business_objects": "AS1_dvdrental_public_film"
     },
+    "AS2_flights_bookings_flights_v": {
+      "title": "flights_v",
+      "description": "Рейсы",
+      "master_system": "AS2",
+      "business_objects": "AS2_flights_bookings_flights_v"
+    },
     "AS2_flights_bookings_ticket_flights": {
       "title": "ticket_flights",
-      "description": "ticket_flights",
+      "description": "Перелеты",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_ticket_flights"
     },
     "AS2_flights_bookings_boarding_passes": {
       "title": "boarding_passes",
-      "description": "boarding_passes",
+      "description": "Посадочные талоны",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_boarding_passes"
     },
     "AS2_flights_bookings_aircrafts": {
       "title": "aircrafts",
-      "description": "aircrafts",
+      "description": "Самолеты",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_aircrafts"
     },
     "AS2_flights_bookings_flights": {
       "title": "flights",
-      "description": "flights",
+      "description": "Рейсы",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_flights"
     },
     "AS2_flights_bookings_airports": {
       "title": "airports",
-      "description": "airports",
+      "description": "Аэропорты",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_airports"
     },
     "AS2_flights_bookings_seats": {
       "title": "seats",
-      "description": "seats",
+      "description": "Места",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_seats"
     },
     "AS2_flights_bookings_tickets": {
       "title": "tickets",
-      "description": "tickets",
+      "description": "Билеты",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_tickets"
     },
     "AS2_flights_bookings_bookings": {
       "title": "bookings",
-      "description": "bookings",
+      "description": "Бронирования",
       "master_system": "AS2",
       "business_objects": "AS2_flights_bookings_bookings"
     },
     "AS3_Adventureworks_person_addresstype": {
       "title": "addresstype",
-      "description": "addresstype",
+      "description": "Types of addresses stored in the Address table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_addresstype"
     },
     "AS3_Adventureworks_person_businessentity": {
       "title": "businessentity",
-      "description": "businessentity",
+      "description": "Source of the ID that connects vendors, customers, and employees with address and contact information.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_businessentity"
     },
     "AS3_Adventureworks_person_address": {
       "title": "address",
-      "description": "address",
+      "description": "Street address information for customers, employees, and vendors.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_address"
     },
     "AS3_Adventureworks_person_businessentityaddress": {
       "title": "businessentityaddress",
-      "description": "businessentityaddress",
+      "description": "Cross-reference table mapping customers, vendors, and employees to their addresses.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_businessentityaddress"
     },
     "AS3_Adventureworks_person_person": {
       "title": "person",
-      "description": "person",
+      "description": "Human beings involved with AdventureWorks: employees, customer contacts, and vendor contacts.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_person"
     },
     "AS3_Adventureworks_person_businessentitycontact": {
       "title": "businessentitycontact",
-      "description": "businessentitycontact",
+      "description": "Cross-reference table mapping stores, vendors, and employees to people",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_businessentitycontact"
     },
     "AS3_Adventureworks_person_contacttype": {
       "title": "contacttype",
-      "description": "contacttype",
+      "description": "Lookup table containing the types of business entity contacts.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_contacttype"
     },
     "AS3_Adventureworks_person_emailaddress": {
       "title": "emailaddress",
-      "description": "emailaddress",
+      "description": "Where to send a person email.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_emailaddress"
     },
     "AS3_Adventureworks_person_password": {
       "title": "password",
-      "description": "password",
+      "description": "One way hashed authentication information",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_password"
     },
     "AS3_Adventureworks_person_phonenumbertype": {
       "title": "phonenumbertype",
-      "description": "phonenumbertype",
+      "description": "Type of phone number of a person.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_phonenumbertype"
     },
     "AS3_Adventureworks_person_stateprovince": {
       "title": "stateprovince",
-      "description": "stateprovince",
+      "description": "State and province lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_stateprovince"
     },
     "AS3_Adventureworks_person_countryregion": {
       "title": "countryregion",
-      "description": "countryregion",
+      "description": "Lookup table containing the ISO standard codes for countries and regions.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_countryregion"
     },
     "AS3_Adventureworks_humanresources_employee": {
       "title": "employee",
-      "description": "employee",
+      "description": "Employee information such as salary, department, and title.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_employee"
     },
     "AS3_Adventureworks_humanresources_department": {
       "title": "department",
-      "description": "department",
+      "description": "Lookup table containing the departments within the Adventure Works Cycles company.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_department"
     },
     "AS3_Adventureworks_humanresources_employeedepartmenthistory": {
       "title": "employeedepartmenthistory",
-      "description": "employeedepartmenthistory",
+      "description": "Employee department transfers.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_employeedepartmenthistory"
     },
     "AS3_Adventureworks_person_personphone": {
       "title": "personphone",
-      "description": "personphone",
+      "description": "Telephone number and type of a person.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_person_personphone"
     },
     "AS3_Adventureworks_humanresources_employeepayhistory": {
       "title": "employeepayhistory",
-      "description": "employeepayhistory",
+      "description": "Employee pay history.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_employeepayhistory"
     },
     "AS3_Adventureworks_production_billofmaterials": {
       "title": "billofmaterials",
-      "description": "billofmaterials",
+      "description": "Items required to make bicycles and bicycle subassemblies. It identifies the heirarchical relationship between a parent product and its components.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_billofmaterials"
     },
     "AS3_Adventureworks_humanresources_jobcandidate": {
       "title": "jobcandidate",
-      "description": "jobcandidate",
+      "description": "RÃ©sumÃ©s submitted to Human Resources by job applicants.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_jobcandidate"
     },
     "AS3_Adventureworks_production_document": {
       "title": "document",
-      "description": "document",
+      "description": "Product maintenance documents.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_document"
     },
     "AS3_Adventureworks_humanresources_shift": {
       "title": "shift",
-      "description": "shift",
+      "description": "Work shift lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_humanresources_shift"
     },
     "AS3_Adventureworks_production_productsubcategory": {
       "title": "productsubcategory",
-      "description": "productsubcategory",
+      "description": "Product subcategories. See ProductCategory table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productsubcategory"
     },
     "AS3_Adventureworks_production_culture": {
       "title": "culture",
-      "description": "culture",
+      "description": "Lookup table containing the languages in which some AdventureWorks data is stored.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_culture"
     },
     "AS3_Adventureworks_production_productcategory": {
       "title": "productcategory",
-      "description": "productcategory",
+      "description": "High-level product categorization.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productcategory"
     },
     "AS3_Adventureworks_production_location": {
       "title": "location",
-      "description": "location",
+      "description": "Product inventory and manufacturing locations.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_location"
     },
     "AS3_Adventureworks_production_productdescription": {
       "title": "productdescription",
-      "description": "productdescription",
+      "description": "Product descriptions in several languages.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productdescription"
     },
     "AS3_Adventureworks_production_productmodel": {
       "title": "productmodel",
-      "description": "productmodel",
+      "description": "Product model classification.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productmodel"
     },
     "AS3_Adventureworks_production_product": {
       "title": "product",
-      "description": "product",
+      "description": "Products sold or used in the manfacturing of sold products.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_product"
     },
     "AS3_Adventureworks_production_productinventory": {
       "title": "productinventory",
-      "description": "productinventory",
+      "description": "Product inventory information.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productinventory"
     },
     "AS3_Adventureworks_production_productcosthistory": {
       "title": "productcosthistory",
-      "description": "productcosthistory",
+      "description": "Changes in the cost of a product over time.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productcosthistory"
     },
     "AS3_Adventureworks_production_productdocument": {
       "title": "productdocument",
-      "description": "productdocument",
+      "description": "Cross-reference table mapping products to related product documents.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productdocument"
     },
     "AS3_Adventureworks_production_illustration": {
       "title": "illustration",
-      "description": "illustration",
+      "description": "Bicycle assembly diagrams.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_illustration"
     },
     "AS3_Adventureworks_production_productmodelillustration": {
       "title": "productmodelillustration",
-      "description": "productmodelillustration",
+      "description": "Cross-reference table mapping product models and illustrations.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productmodelillustration"
     },
     "AS3_Adventureworks_production_productphoto": {
       "title": "productphoto",
-      "description": "productphoto",
+      "description": "Product images.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productphoto"
     },
     "AS3_Adventureworks_production_productmodelproductdescriptionculture": {
       "title": "productmodelproductdescriptionculture",
-      "description": "productmodelproductdescriptionculture",
+      "description": "Cross-reference table mapping product descriptions and the language the description is written in.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productmodelproductdescriptionculture"
     },
     "AS3_Adventureworks_production_productproductphoto": {
       "title": "productproductphoto",
-      "description": "productproductphoto",
+      "description": "Cross-reference table mapping products and product photos.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productproductphoto"
     },
     "AS3_Adventureworks_production_unitmeasure": {
       "title": "unitmeasure",
-      "description": "unitmeasure",
+      "description": "Unit of measure lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_unitmeasure"
     },
     "AS3_Adventureworks_production_productreview": {
       "title": "productreview",
-      "description": "productreview",
+      "description": "Customer reviews of products they have purchased.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productreview"
     },
     "AS3_Adventureworks_production_transactionhistoryarchive": {
       "title": "transactionhistoryarchive",
-      "description": "transactionhistoryarchive",
+      "description": "Transactions for previous years.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_transactionhistoryarchive"
     },
     "AS3_Adventureworks_purchasing_productvendor": {
       "title": "productvendor",
-      "description": "productvendor",
+      "description": "Cross-reference table mapping vendors with the products they supply.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_purchasing_productvendor"
     },
     "AS3_Adventureworks_purchasing_purchaseorderdetail": {
       "title": "purchaseorderdetail",
-      "description": "purchaseorderdetail",
+      "description": "Individual products associated with a specific purchase order. See PurchaseOrderHeader.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_purchasing_purchaseorderdetail"
     },
     "AS3_Adventureworks_purchasing_purchaseorderheader": {
       "title": "purchaseorderheader",
-      "description": "purchaseorderheader",
+      "description": "General purchase order information. See PurchaseOrderDetail.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_purchasing_purchaseorderheader"
     },
     "AS3_Adventureworks_production_transactionhistory": {
       "title": "transactionhistory",
-      "description": "transactionhistory",
+      "description": "Record of each purchase order, sales order, or work order transaction year to date.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_transactionhistory"
     },
     "AS3_Adventureworks_production_workorder": {
       "title": "workorder",
-      "description": "workorder",
+      "description": "Manufacturing work orders.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_workorder"
     },
     "AS3_Adventureworks_production_scrapreason": {
       "title": "scrapreason",
-      "description": "scrapreason",
+      "description": "Manufacturing failure reasons lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_scrapreason"
     },
     "AS3_Adventureworks_production_workorderrouting": {
       "title": "workorderrouting",
-      "description": "workorderrouting",
+      "description": "Work order details.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_workorderrouting"
     },
     "AS3_Adventureworks_sales_salesorderheadersalesreason": {
       "title": "salesorderheadersalesreason",
-      "description": "salesorderheadersalesreason",
+      "description": "Cross-reference table mapping sales orders to sales reason codes.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesorderheadersalesreason"
     },
     "AS3_Adventureworks_sales_countryregioncurrency": {
       "title": "countryregioncurrency",
-      "description": "countryregioncurrency",
+      "description": "Cross-reference table mapping ISO currency codes to a country or region.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_countryregioncurrency"
     },
     "AS3_Adventureworks_sales_currency": {
       "title": "currency",
-      "description": "currency",
+      "description": "Lookup table containing standard ISO currencies.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_currency"
     },
     "AS3_Adventureworks_sales_currencyrate": {
       "title": "currencyrate",
-      "description": "currencyrate",
+      "description": "Currency exchange rates.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_currencyrate"
     },
     "AS3_Adventureworks_sales_creditcard": {
       "title": "creditcard",
-      "description": "creditcard",
+      "description": "Customer credit card information.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_creditcard"
     },
     "AS3_Adventureworks_sales_personcreditcard": {
       "title": "personcreditcard",
-      "description": "personcreditcard",
+      "description": "Cross-reference table mapping people to their credit card information in the CreditCard table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_personcreditcard"
     },
     "AS3_Adventureworks_sales_customer": {
       "title": "customer",
-      "description": "customer",
+      "description": "Current customer information. Also see the Person and Store tables.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_customer"
     },
     "AS3_Adventureworks_purchasing_vendor": {
       "title": "vendor",
-      "description": "vendor",
+      "description": "Companies from whom Adventure Works Cycles purchases parts or other goods.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_purchasing_vendor"
     },
     "AS3_Adventureworks_purchasing_shipmethod": {
       "title": "shipmethod",
-      "description": "shipmethod",
+      "description": "Shipping company lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_purchasing_shipmethod"
     },
     "AS3_Adventureworks_sales_salesorderheader": {
       "title": "salesorderheader",
-      "description": "salesorderheader",
+      "description": "General sales order information.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesorderheader"
     },
     "AS3_Adventureworks_sales_salesorderdetail": {
       "title": "salesorderdetail",
-      "description": "salesorderdetail",
+      "description": "Individual products associated with a specific sales order. See SalesOrderHeader.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesorderdetail"
     },
     "AS3_Adventureworks_sales_salesperson": {
       "title": "salesperson",
-      "description": "salesperson",
+      "description": "Sales representative current information.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesperson"
     },
     "AS3_Adventureworks_sales_salespersonquotahistory": {
       "title": "salespersonquotahistory",
-      "description": "salespersonquotahistory",
+      "description": "Sales performance tracking.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salespersonquotahistory"
     },
     "AS3_Adventureworks_sales_salesterritory": {
       "title": "salesterritory",
-      "description": "salesterritory",
+      "description": "Sales territory lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesterritory"
     },
     "AS3_Adventureworks_sales_salestaxrate": {
       "title": "salestaxrate",
-      "description": "salestaxrate",
+      "description": "Tax rate lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salestaxrate"
     },
     "AS3_Adventureworks_sales_salesterritoryhistory": {
       "title": "salesterritoryhistory",
-      "description": "salesterritoryhistory",
+      "description": "Sales representative transfers to other sales territories.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesterritoryhistory"
     },
     "AS3_Adventureworks_sales_specialofferproduct": {
       "title": "specialofferproduct",
-      "description": "specialofferproduct",
+      "description": "Cross-reference table mapping products to special offer discounts.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_specialofferproduct"
     },
     "AS3_Adventureworks_sales_salesreason": {
       "title": "salesreason",
-      "description": "salesreason",
+      "description": "Lookup table of customer purchase reasons.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_salesreason"
     },
     "AS3_Adventureworks_sales_shoppingcartitem": {
       "title": "shoppingcartitem",
-      "description": "shoppingcartitem",
+      "description": "Contains online customer orders until the order is submitted or cancelled.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_shoppingcartitem"
     },
     "AS3_Adventureworks_sales_specialoffer": {
       "title": "specialoffer",
-      "description": "specialoffer",
+      "description": "Sale discounts lookup table.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_specialoffer"
     },
     "AS3_Adventureworks_sales_store": {
       "title": "store",
-      "description": "store",
+      "description": "Customers (resellers) of Adventure Works products.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_sales_store"
     },
     "AS3_Adventureworks_production_productlistpricehistory": {
       "title": "productlistpricehistory",
-      "description": "productlistpricehistory",
+      "description": "Changes in the list price of a product over time.",
       "master_system": "AS3",
       "business_objects": "AS3_Adventureworks_production_productlistpricehistory"
+    },
+    "AS3_Adventureworks_person_vadditionalcontactinfo": {
+      "title": "vadditionalcontactinfo",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_person_vadditionalcontactinfo"
+    },
+    "AS3_Adventureworks_humanresources_vemployee": {
+      "title": "vemployee",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vemployee"
+    },
+    "AS3_Adventureworks_humanresources_vemployeedepartment": {
+      "title": "vemployeedepartment",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vemployeedepartment"
+    },
+    "AS3_Adventureworks_humanresources_vemployeedepartmenthistory": {
+      "title": "vemployeedepartmenthistory",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vemployeedepartmenthistory"
+    },
+    "AS3_Adventureworks_sales_vindividualcustomer": {
+      "title": "vindividualcustomer",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vindividualcustomer"
+    },
+    "AS3_Adventureworks_sales_vpersondemographics": {
+      "title": "vpersondemographics",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vpersondemographics"
+    },
+    "AS3_Adventureworks_humanresources_vjobcandidate": {
+      "title": "vjobcandidate",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vjobcandidate"
+    },
+    "AS3_Adventureworks_humanresources_vjobcandidateemployment": {
+      "title": "vjobcandidateemployment",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vjobcandidateemployment"
+    },
+    "AS3_Adventureworks_humanresources_vjobcandidateeducation": {
+      "title": "vjobcandidateeducation",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_humanresources_vjobcandidateeducation"
+    },
+    "AS3_Adventureworks_production_vproductmodelcatalogdescription": {
+      "title": "vproductmodelcatalogdescription",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_production_vproductmodelcatalogdescription"
+    },
+    "AS3_Adventureworks_production_vproductmodelinstructions": {
+      "title": "vproductmodelinstructions",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_production_vproductmodelinstructions"
+    },
+    "AS3_Adventureworks_sales_vsalesperson": {
+      "title": "vsalesperson",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vsalesperson"
+    },
+    "AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata": {
+      "title": "vsalespersonsalesbyfiscalyearsdata",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata"
+    },
+    "AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears": {
+      "title": "vsalespersonsalesbyfiscalyears",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears"
+    },
+    "AS3_Adventureworks_sales_vstorewithaddresses": {
+      "title": "vstorewithaddresses",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vstorewithaddresses"
+    },
+    "AS3_Adventureworks_purchasing_vvendorwithcontacts": {
+      "title": "vvendorwithcontacts",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_purchasing_vvendorwithcontacts"
+    },
+    "AS3_Adventureworks_purchasing_vvendorwithaddresses": {
+      "title": "vvendorwithaddresses",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_purchasing_vvendorwithaddresses"
+    },
+    "AS3_Adventureworks_sales_vstorewithdemographics": {
+      "title": "vstorewithdemographics",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vstorewithdemographics"
+    },
+    "AS3_Adventureworks_sales_vstorewithcontacts": {
+      "title": "vstorewithcontacts",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sales_vstorewithcontacts"
+    },
+    "AS3_Adventureworks_pe_a": {
+      "title": "a",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_a"
+    },
+    "AS3_Adventureworks_pe_at": {
+      "title": "at",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_at"
+    },
+    "AS3_Adventureworks_pe_be": {
+      "title": "be",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_be"
+    },
+    "AS3_Adventureworks_pe_bea": {
+      "title": "bea",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_bea"
+    },
+    "AS3_Adventureworks_pe_bec": {
+      "title": "bec",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_bec"
+    },
+    "AS3_Adventureworks_pe_ct": {
+      "title": "ct",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_ct"
+    },
+    "AS3_Adventureworks_pe_cr": {
+      "title": "cr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_cr"
+    },
+    "AS3_Adventureworks_pe_e": {
+      "title": "e",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_e"
+    },
+    "AS3_Adventureworks_pe_pa": {
+      "title": "pa",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_pa"
+    },
+    "AS3_Adventureworks_pe_p": {
+      "title": "p",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_p"
+    },
+    "AS3_Adventureworks_pe_pp": {
+      "title": "pp",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_pp"
+    },
+    "AS3_Adventureworks_pe_pnt": {
+      "title": "pnt",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_pnt"
+    },
+    "AS3_Adventureworks_pe_sp": {
+      "title": "sp",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pe_sp"
+    },
+    "AS3_Adventureworks_hr_d": {
+      "title": "d",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_d"
+    },
+    "AS3_Adventureworks_hr_e": {
+      "title": "e",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_e"
+    },
+    "AS3_Adventureworks_hr_edh": {
+      "title": "edh",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_edh"
+    },
+    "AS3_Adventureworks_hr_eph": {
+      "title": "eph",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_eph"
+    },
+    "AS3_Adventureworks_hr_jc": {
+      "title": "jc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_jc"
+    },
+    "AS3_Adventureworks_hr_s": {
+      "title": "s",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_hr_s"
+    },
+    "AS3_Adventureworks_pr_bom": {
+      "title": "bom",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_bom"
+    },
+    "AS3_Adventureworks_pr_c": {
+      "title": "c",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_c"
+    },
+    "AS3_Adventureworks_pr_d": {
+      "title": "d",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_d"
+    },
+    "AS3_Adventureworks_pr_i": {
+      "title": "i",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_i"
+    },
+    "AS3_Adventureworks_pr_l": {
+      "title": "l",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_l"
+    },
+    "AS3_Adventureworks_pr_p": {
+      "title": "p",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_p"
+    },
+    "AS3_Adventureworks_pr_pc": {
+      "title": "pc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pc"
+    },
+    "AS3_Adventureworks_pr_pch": {
+      "title": "pch",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pch"
+    },
+    "AS3_Adventureworks_pr_pd": {
+      "title": "pd",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pd"
+    },
+    "AS3_Adventureworks_pr_pdoc": {
+      "title": "pdoc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pdoc"
+    },
+    "AS3_Adventureworks_pr_pi": {
+      "title": "pi",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pi"
+    },
+    "AS3_Adventureworks_pr_plph": {
+      "title": "plph",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_plph"
+    },
+    "AS3_Adventureworks_pr_pm": {
+      "title": "pm",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pm"
+    },
+    "AS3_Adventureworks_pr_pmi": {
+      "title": "pmi",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pmi"
+    },
+    "AS3_Adventureworks_pr_pmpdc": {
+      "title": "pmpdc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pmpdc"
+    },
+    "AS3_Adventureworks_pr_pp": {
+      "title": "pp",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pp"
+    },
+    "AS3_Adventureworks_pr_ppp": {
+      "title": "ppp",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_ppp"
+    },
+    "AS3_Adventureworks_pr_pr": {
+      "title": "pr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_pr"
+    },
+    "AS3_Adventureworks_pr_psc": {
+      "title": "psc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_psc"
+    },
+    "AS3_Adventureworks_pr_sr": {
+      "title": "sr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_sr"
+    },
+    "AS3_Adventureworks_pr_th": {
+      "title": "th",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_th"
+    },
+    "AS3_Adventureworks_pr_tha": {
+      "title": "tha",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_tha"
+    },
+    "AS3_Adventureworks_pr_um": {
+      "title": "um",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_um"
+    },
+    "AS3_Adventureworks_pr_w": {
+      "title": "w",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_w"
+    },
+    "AS3_Adventureworks_pr_wr": {
+      "title": "wr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pr_wr"
+    },
+    "AS3_Adventureworks_pu_pv": {
+      "title": "pv",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pu_pv"
+    },
+    "AS3_Adventureworks_pu_pod": {
+      "title": "pod",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pu_pod"
+    },
+    "AS3_Adventureworks_pu_poh": {
+      "title": "poh",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pu_poh"
+    },
+    "AS3_Adventureworks_pu_sm": {
+      "title": "sm",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pu_sm"
+    },
+    "AS3_Adventureworks_pu_v": {
+      "title": "v",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_pu_v"
+    },
+    "AS3_Adventureworks_sa_crc": {
+      "title": "crc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_crc"
+    },
+    "AS3_Adventureworks_sa_cc": {
+      "title": "cc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_cc"
+    },
+    "AS3_Adventureworks_sa_cu": {
+      "title": "cu",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_cu"
+    },
+    "AS3_Adventureworks_sa_cr": {
+      "title": "cr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_cr"
+    },
+    "AS3_Adventureworks_sa_c": {
+      "title": "c",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_c"
+    },
+    "AS3_Adventureworks_sa_pcc": {
+      "title": "pcc",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_pcc"
+    },
+    "AS3_Adventureworks_sa_sod": {
+      "title": "sod",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sod"
+    },
+    "AS3_Adventureworks_sa_soh": {
+      "title": "soh",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_soh"
+    },
+    "AS3_Adventureworks_sa_sohsr": {
+      "title": "sohsr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sohsr"
+    },
+    "AS3_Adventureworks_sa_sp": {
+      "title": "sp",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sp"
+    },
+    "AS3_Adventureworks_sa_spqh": {
+      "title": "spqh",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_spqh"
+    },
+    "AS3_Adventureworks_sa_sr": {
+      "title": "sr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sr"
+    },
+    "AS3_Adventureworks_sa_tr": {
+      "title": "tr",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_tr"
+    },
+    "AS3_Adventureworks_sa_st": {
+      "title": "st",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_st"
+    },
+    "AS3_Adventureworks_sa_sth": {
+      "title": "sth",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sth"
+    },
+    "AS3_Adventureworks_sa_sci": {
+      "title": "sci",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sci"
+    },
+    "AS3_Adventureworks_sa_so": {
+      "title": "so",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_so"
+    },
+    "AS3_Adventureworks_sa_sop": {
+      "title": "sop",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_sop"
+    },
+    "AS3_Adventureworks_sa_s": {
+      "title": "s",
+      "description": null,
+      "master_system": "AS3",
+      "business_objects": "AS3_Adventureworks_sa_s"
     }
   }
 }

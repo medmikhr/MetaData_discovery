@@ -23,6 +23,10 @@ def write_df(df, system, entity = 'physical_tables'):
     if entity == 'physical_tables':
         df['system'] = system
         df['dbms'] = 'postgres'
+    #     df['id'] = ['_'.join([row.system, row.database, row.table_schema, row.table_name]) for row in
+    #                           df.itertuples()]
+    # else:
+    #     df['id'] = system + df['physical_table'] + '.' + df['title']
     df['id'] = system + '_' + df['id']
     df = df.set_index('id')
     output_path = FP['csv'] + entity + '.csv'
