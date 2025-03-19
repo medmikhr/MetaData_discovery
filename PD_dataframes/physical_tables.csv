@@ -1,92 +1,190 @@
-id,database,schema_name,title,type,description,size,rows_count,cols_count,system,dbms,data_objects
-AS1_dvdrental_public_actor,dvdrental,public,actor,BASE TABLE,,16 kB,200.0,4,AS1,postgres,AS1_dvdrental_public_actor
-AS1_dvdrental_public_store,dvdrental,public,store,BASE TABLE,,8192 bytes,2.0,4,AS1,postgres,AS1_dvdrental_public_store
-AS1_dvdrental_public_address,dvdrental,public,address,BASE TABLE,,64 kB,603.0,8,AS1,postgres,AS1_dvdrental_public_address
-AS1_dvdrental_public_category,dvdrental,public,category,BASE TABLE,,8192 bytes,16.0,3,AS1,postgres,AS1_dvdrental_public_category
-AS1_dvdrental_public_city,dvdrental,public,city,BASE TABLE,,40 kB,600.0,4,AS1,postgres,AS1_dvdrental_public_city
-AS1_dvdrental_public_country,dvdrental,public,country,BASE TABLE,,8192 bytes,109.0,3,AS1,postgres,AS1_dvdrental_public_country
-AS1_dvdrental_public_customer,dvdrental,public,customer,BASE TABLE,,72 kB,599.0,10,AS1,postgres,AS1_dvdrental_public_customer
-AS1_dvdrental_public_film_actor,dvdrental,public,film_actor,BASE TABLE,,240 kB,5462.0,3,AS1,postgres,AS1_dvdrental_public_film_actor
-AS1_dvdrental_public_film_category,dvdrental,public,film_category,BASE TABLE,,48 kB,1000.0,3,AS1,postgres,AS1_dvdrental_public_film_category
-AS1_dvdrental_public_inventory,dvdrental,public,inventory,BASE TABLE,,200 kB,4581.0,4,AS1,postgres,AS1_dvdrental_public_inventory
-AS1_dvdrental_public_language,dvdrental,public,language,BASE TABLE,,8192 bytes,6.0,3,AS1,postgres,AS1_dvdrental_public_language
-AS1_dvdrental_public_rental,dvdrental,public,rental,BASE TABLE,,1200 kB,16044.0,7,AS1,postgres,AS1_dvdrental_public_rental
-AS1_dvdrental_public_staff,dvdrental,public,staff,BASE TABLE,,8192 bytes,2.0,11,AS1,postgres,AS1_dvdrental_public_staff
-AS1_dvdrental_public_payment,dvdrental,public,payment,BASE TABLE,,864 kB,14596.0,6,AS1,postgres,AS1_dvdrental_public_payment
-AS1_dvdrental_public_film,dvdrental,public,film,BASE TABLE,,704 kB,1000.0,13,AS1,postgres,AS1_dvdrental_public_film
-AS2_flights_bookings_ticket_flights,flights,bookings,ticket_flights,BASE TABLE,Перелеты,154 MB,2360335.0,4,AS2,postgres,AS2_flights_bookings_ticket_flights
-AS2_flights_bookings_boarding_passes,flights,bookings,boarding_passes,BASE TABLE,Посадочные талоны,109 MB,1894295.0,4,AS2,postgres,AS2_flights_bookings_boarding_passes
-AS2_flights_bookings_aircrafts,flights,bookings,aircrafts,BASE TABLE,Самолеты,8192 bytes,9.0,3,AS2,postgres,AS2_flights_bookings_aircrafts
-AS2_flights_bookings_flights,flights,bookings,flights,BASE TABLE,Рейсы,6656 kB,65664.0,10,AS2,postgres,AS2_flights_bookings_flights
-AS2_flights_bookings_airports,flights,bookings,airports,BASE TABLE,Аэропорты,16 kB,104.0,6,AS2,postgres,AS2_flights_bookings_airports
-AS2_flights_bookings_seats,flights,bookings,seats,BASE TABLE,Места,64 kB,1339.0,3,AS2,postgres,AS2_flights_bookings_seats
-AS2_flights_bookings_tickets,flights,bookings,tickets,BASE TABLE,Билеты,109 MB,829071.0,5,AS2,postgres,AS2_flights_bookings_tickets
-AS2_flights_bookings_bookings,flights,bookings,bookings,BASE TABLE,Бронирования,30 MB,593433.0,3,AS2,postgres,AS2_flights_bookings_bookings
-AS3_Adventureworks_person_addresstype,Adventureworks,person,addresstype,BASE TABLE,Types of addresses stored in the Address table.,8192 bytes,6.0,4,AS3,postgres,AS3_Adventureworks_person_addresstype
-AS3_Adventureworks_person_businessentity,Adventureworks,person,businessentity,BASE TABLE,"Source of the ID that connects vendors, customers, and employees with address and contact information.",0 bytes,0.0,3,AS3,postgres,AS3_Adventureworks_person_businessentity
-AS3_Adventureworks_person_address,Adventureworks,person,address,BASE TABLE,"Street address information for customers, employees, and vendors.",2960 kB,19614.0,9,AS3,postgres,AS3_Adventureworks_person_address
-AS3_Adventureworks_person_businessentityaddress,Adventureworks,person,businessentityaddress,BASE TABLE,"Cross-reference table mapping customers, vendors, and employees to their addresses.",0 bytes,0.0,5,AS3,postgres,AS3_Adventureworks_person_businessentityaddress
-AS3_Adventureworks_person_person,Adventureworks,person,person,BASE TABLE,"Human beings involved with AdventureWorks: employees, customer contacts, and vendor contacts.",0 bytes,0.0,13,AS3,postgres,AS3_Adventureworks_person_person
-AS3_Adventureworks_person_businessentitycontact,Adventureworks,person,businessentitycontact,BASE TABLE,"Cross-reference table mapping stores, vendors, and employees to people",0 bytes,0.0,5,AS3,postgres,AS3_Adventureworks_person_businessentitycontact
-AS3_Adventureworks_person_contacttype,Adventureworks,person,contacttype,BASE TABLE,Lookup table containing the types of business entity contacts.,8192 bytes,20.0,3,AS3,postgres,AS3_Adventureworks_person_contacttype
-AS3_Adventureworks_person_emailaddress,Adventureworks,person,emailaddress,BASE TABLE,Where to send a person email.,0 bytes,0.0,5,AS3,postgres,AS3_Adventureworks_person_emailaddress
-AS3_Adventureworks_person_password,Adventureworks,person,password,BASE TABLE,One way hashed authentication information,0 bytes,0.0,5,AS3,postgres,AS3_Adventureworks_person_password
-AS3_Adventureworks_person_phonenumbertype,Adventureworks,person,phonenumbertype,BASE TABLE,Type of phone number of a person.,0 bytes,0.0,3,AS3,postgres,AS3_Adventureworks_person_phonenumbertype
-AS3_Adventureworks_person_stateprovince,Adventureworks,person,stateprovince,BASE TABLE,State and province lookup table.,0 bytes,0.0,8,AS3,postgres,AS3_Adventureworks_person_stateprovince
-AS3_Adventureworks_person_countryregion,Adventureworks,person,countryregion,BASE TABLE,Lookup table containing the ISO standard codes for countries and regions.,0 bytes,0.0,3,AS3,postgres,AS3_Adventureworks_person_countryregion
-AS3_Adventureworks_humanresources_employee,Adventureworks,humanresources,employee,BASE TABLE,"Employee information such as salary, department, and title.",0 bytes,0.0,17,AS3,postgres,AS3_Adventureworks_humanresources_employee
-AS3_Adventureworks_humanresources_department,Adventureworks,humanresources,department,BASE TABLE,Lookup table containing the departments within the Adventure Works Cycles company.,8192 bytes,16.0,4,AS3,postgres,AS3_Adventureworks_humanresources_department
-AS3_Adventureworks_humanresources_employeedepartmenthistory,Adventureworks,humanresources,employeedepartmenthistory,BASE TABLE,Employee department transfers.,16 kB,296.0,6,AS3,postgres,AS3_Adventureworks_humanresources_employeedepartmenthistory
-AS3_Adventureworks_person_personphone,Adventureworks,person,personphone,BASE TABLE,Telephone number and type of a person.,0 bytes,0.0,4,AS3,postgres,AS3_Adventureworks_person_personphone
-AS3_Adventureworks_humanresources_employeepayhistory,Adventureworks,humanresources,employeepayhistory,BASE TABLE,Employee pay history.,24 kB,316.0,5,AS3,postgres,AS3_Adventureworks_humanresources_employeepayhistory
-AS3_Adventureworks_production_billofmaterials,Adventureworks,production,billofmaterials,BASE TABLE,Items required to make bicycles and bicycle subassemblies. It identifies the heirarchical relationship between a parent product and its components.,224 kB,2679.0,9,AS3,postgres,AS3_Adventureworks_production_billofmaterials
-AS3_Adventureworks_humanresources_jobcandidate,Adventureworks,humanresources,jobcandidate,BASE TABLE,RÃ©sumÃ©s submitted to Human Resources by job applicants.,0 bytes,0.0,4,AS3,postgres,AS3_Adventureworks_humanresources_jobcandidate
-AS3_Adventureworks_production_document,Adventureworks,production,document,BASE TABLE,Product maintenance documents.,0 bytes,0.0,15,AS3,postgres,AS3_Adventureworks_production_document
-AS3_Adventureworks_humanresources_shift,Adventureworks,humanresources,shift,BASE TABLE,Work shift lookup table.,8192 bytes,3.0,5,AS3,postgres,AS3_Adventureworks_humanresources_shift
-AS3_Adventureworks_production_productsubcategory,Adventureworks,production,productsubcategory,BASE TABLE,Product subcategories. See ProductCategory table.,8192 bytes,37.0,5,AS3,postgres,AS3_Adventureworks_production_productsubcategory
-AS3_Adventureworks_production_culture,Adventureworks,production,culture,BASE TABLE,Lookup table containing the languages in which some AdventureWorks data is stored.,8192 bytes,8.0,3,AS3,postgres,AS3_Adventureworks_production_culture
-AS3_Adventureworks_production_productcategory,Adventureworks,production,productcategory,BASE TABLE,High-level product categorization.,8192 bytes,4.0,4,AS3,postgres,AS3_Adventureworks_production_productcategory
-AS3_Adventureworks_production_location,Adventureworks,production,location,BASE TABLE,Product inventory and manufacturing locations.,8192 bytes,14.0,5,AS3,postgres,AS3_Adventureworks_production_location
-AS3_Adventureworks_production_productdescription,Adventureworks,production,productdescription,BASE TABLE,Product descriptions in several languages.,0 bytes,0.0,4,AS3,postgres,AS3_Adventureworks_production_productdescription
-AS3_Adventureworks_production_productmodel,Adventureworks,production,productmodel,BASE TABLE,Product model classification.,0 bytes,0.0,6,AS3,postgres,AS3_Adventureworks_production_productmodel
-AS3_Adventureworks_production_product,Adventureworks,production,product,BASE TABLE,Products sold or used in the manfacturing of sold products.,80 kB,504.0,25,AS3,postgres,AS3_Adventureworks_production_product
-AS3_Adventureworks_production_productinventory,Adventureworks,production,productinventory,BASE TABLE,Product inventory information.,72 kB,1069.0,7,AS3,postgres,AS3_Adventureworks_production_productinventory
-AS3_Adventureworks_production_productcosthistory,Adventureworks,production,productcosthistory,BASE TABLE,Changes in the cost of a product over time.,32 kB,395.0,5,AS3,postgres,AS3_Adventureworks_production_productcosthistory
-AS3_Adventureworks_production_productdocument,Adventureworks,production,productdocument,BASE TABLE,Cross-reference table mapping products to related product documents.,8192 bytes,32.0,5,AS3,postgres,AS3_Adventureworks_production_productdocument
-AS3_Adventureworks_production_illustration,Adventureworks,production,illustration,BASE TABLE,Bicycle assembly diagrams.,0 bytes,0.0,3,AS3,postgres,AS3_Adventureworks_production_illustration
-AS3_Adventureworks_production_productmodelillustration,Adventureworks,production,productmodelillustration,BASE TABLE,Cross-reference table mapping product models and illustrations.,8192 bytes,7.0,3,AS3,postgres,AS3_Adventureworks_production_productmodelillustration
-AS3_Adventureworks_production_productphoto,Adventureworks,production,productphoto,BASE TABLE,Product images.,0 bytes,0.0,6,AS3,postgres,AS3_Adventureworks_production_productphoto
-AS3_Adventureworks_production_productmodelproductdescriptionculture,Adventureworks,production,productmodelproductdescriptionculture,BASE TABLE,Cross-reference table mapping product descriptions and the language the description is written in.,40 kB,762.0,4,AS3,postgres,AS3_Adventureworks_production_productmodelproductdescriptionculture
-AS3_Adventureworks_production_productproductphoto,Adventureworks,production,productproductphoto,BASE TABLE,Cross-reference table mapping products and product photos.,32 kB,504.0,4,AS3,postgres,AS3_Adventureworks_production_productproductphoto
-AS3_Adventureworks_production_unitmeasure,Adventureworks,production,unitmeasure,BASE TABLE,Unit of measure lookup table.,8192 bytes,38.0,3,AS3,postgres,AS3_Adventureworks_production_unitmeasure
-AS3_Adventureworks_production_productreview,Adventureworks,production,productreview,BASE TABLE,Customer reviews of products they have purchased.,8192 bytes,4.0,8,AS3,postgres,AS3_Adventureworks_production_productreview
-AS3_Adventureworks_production_transactionhistoryarchive,Adventureworks,production,transactionhistoryarchive,BASE TABLE,Transactions for previous years.,6680 kB,89253.0,9,AS3,postgres,AS3_Adventureworks_production_transactionhistoryarchive
-AS3_Adventureworks_purchasing_productvendor,Adventureworks,purchasing,productvendor,BASE TABLE,Cross-reference table mapping vendors with the products they supply.,48 kB,460.0,11,AS3,postgres,AS3_Adventureworks_purchasing_productvendor
-AS3_Adventureworks_purchasing_purchaseorderdetail,Adventureworks,purchasing,purchaseorderdetail,BASE TABLE,Individual products associated with a specific purchase order. See PurchaseOrderHeader.,744 kB,8845.0,11,AS3,postgres,AS3_Adventureworks_purchasing_purchaseorderdetail
-AS3_Adventureworks_purchasing_purchaseorderheader,Adventureworks,purchasing,purchaseorderheader,BASE TABLE,General purchase order information. See PurchaseOrderDetail.,432 kB,4012.0,13,AS3,postgres,AS3_Adventureworks_purchasing_purchaseorderheader
-AS3_Adventureworks_production_transactionhistory,Adventureworks,production,transactionhistory,BASE TABLE,"Record of each purchase order, sales order, or work order transaction year to date.",8488 kB,113443.0,9,AS3,postgres,AS3_Adventureworks_production_transactionhistory
-AS3_Adventureworks_production_workorder,Adventureworks,production,workorder,BASE TABLE,Manufacturing work orders.,6000 kB,72591.0,10,AS3,postgres,AS3_Adventureworks_production_workorder
-AS3_Adventureworks_production_scrapreason,Adventureworks,production,scrapreason,BASE TABLE,Manufacturing failure reasons lookup table.,8192 bytes,16.0,3,AS3,postgres,AS3_Adventureworks_production_scrapreason
-AS3_Adventureworks_production_workorderrouting,Adventureworks,production,workorderrouting,BASE TABLE,Work order details.,7000 kB,67131.0,12,AS3,postgres,AS3_Adventureworks_production_workorderrouting
-AS3_Adventureworks_sales_salesorderheadersalesreason,Adventureworks,sales,salesorderheadersalesreason,BASE TABLE,Cross-reference table mapping sales orders to sales reason codes.,1200 kB,27647.0,3,AS3,postgres,AS3_Adventureworks_sales_salesorderheadersalesreason
-AS3_Adventureworks_sales_countryregioncurrency,Adventureworks,sales,countryregioncurrency,BASE TABLE,Cross-reference table mapping ISO currency codes to a country or region.,0 bytes,0.0,3,AS3,postgres,AS3_Adventureworks_sales_countryregioncurrency
-AS3_Adventureworks_sales_currency,Adventureworks,sales,currency,BASE TABLE,Lookup table containing standard ISO currencies.,8192 bytes,105.0,3,AS3,postgres,AS3_Adventureworks_sales_currency
-AS3_Adventureworks_sales_currencyrate,Adventureworks,sales,currencyrate,BASE TABLE,Currency exchange rates.,1016 kB,13532.0,7,AS3,postgres,AS3_Adventureworks_sales_currencyrate
-AS3_Adventureworks_sales_creditcard,Adventureworks,sales,creditcard,BASE TABLE,Customer credit card information.,1392 kB,19118.0,6,AS3,postgres,AS3_Adventureworks_sales_creditcard
-AS3_Adventureworks_sales_personcreditcard,Adventureworks,sales,personcreditcard,BASE TABLE,Cross-reference table mapping people to their credit card information in the CreditCard table.,832 kB,19118.0,3,AS3,postgres,AS3_Adventureworks_sales_personcreditcard
-AS3_Adventureworks_sales_customer,Adventureworks,sales,customer,BASE TABLE,Current customer information. Also see the Person and Store tables.,1328 kB,19820.0,7,AS3,postgres,AS3_Adventureworks_sales_customer
-AS3_Adventureworks_purchasing_vendor,Adventureworks,purchasing,vendor,BASE TABLE,Companies from whom Adventure Works Cycles purchases parts or other goods.,16 kB,104.0,8,AS3,postgres,AS3_Adventureworks_purchasing_vendor
-AS3_Adventureworks_purchasing_shipmethod,Adventureworks,purchasing,shipmethod,BASE TABLE,Shipping company lookup table.,8192 bytes,5.0,6,AS3,postgres,AS3_Adventureworks_purchasing_shipmethod
-AS3_Adventureworks_sales_salesorderheader,Adventureworks,sales,salesorderheader,BASE TABLE,General sales order information.,5776 kB,31465.0,26,AS3,postgres,AS3_Adventureworks_sales_salesorderheader
-AS3_Adventureworks_sales_salesorderdetail,Adventureworks,sales,salesorderdetail,BASE TABLE,Individual products associated with a specific sales order. See SalesOrderHeader.,12 MB,121317.0,11,AS3,postgres,AS3_Adventureworks_sales_salesorderdetail
-AS3_Adventureworks_sales_salesperson,Adventureworks,sales,salesperson,BASE TABLE,Sales representative current information.,8192 bytes,17.0,9,AS3,postgres,AS3_Adventureworks_sales_salesperson
-AS3_Adventureworks_sales_salespersonquotahistory,Adventureworks,sales,salespersonquotahistory,BASE TABLE,Sales performance tracking.,16 kB,163.0,5,AS3,postgres,AS3_Adventureworks_sales_salespersonquotahistory
-AS3_Adventureworks_sales_salesterritory,Adventureworks,sales,salesterritory,BASE TABLE,Sales territory lookup table.,8192 bytes,10.0,10,AS3,postgres,AS3_Adventureworks_sales_salesterritory
-AS3_Adventureworks_sales_salestaxrate,Adventureworks,sales,salestaxrate,BASE TABLE,Tax rate lookup table.,8192 bytes,29.0,7,AS3,postgres,AS3_Adventureworks_sales_salestaxrate
-AS3_Adventureworks_sales_salesterritoryhistory,Adventureworks,sales,salesterritoryhistory,BASE TABLE,Sales representative transfers to other sales territories.,8192 bytes,17.0,6,AS3,postgres,AS3_Adventureworks_sales_salesterritoryhistory
-AS3_Adventureworks_sales_specialofferproduct,Adventureworks,sales,specialofferproduct,BASE TABLE,Cross-reference table mapping products to special offer discounts.,32 kB,538.0,4,AS3,postgres,AS3_Adventureworks_sales_specialofferproduct
-AS3_Adventureworks_sales_salesreason,Adventureworks,sales,salesreason,BASE TABLE,Lookup table of customer purchase reasons.,8192 bytes,10.0,4,AS3,postgres,AS3_Adventureworks_sales_salesreason
-AS3_Adventureworks_sales_shoppingcartitem,Adventureworks,sales,shoppingcartitem,BASE TABLE,Contains online customer orders until the order is submitted or cancelled.,8192 bytes,3.0,6,AS3,postgres,AS3_Adventureworks_sales_shoppingcartitem
-AS3_Adventureworks_sales_specialoffer,Adventureworks,sales,specialoffer,BASE TABLE,Sale discounts lookup table.,8192 bytes,16.0,11,AS3,postgres,AS3_Adventureworks_sales_specialoffer
-AS3_Adventureworks_sales_store,Adventureworks,sales,store,BASE TABLE,Customers (resellers) of Adventure Works products.,0 bytes,0.0,6,AS3,postgres,AS3_Adventureworks_sales_store
-AS3_Adventureworks_production_productlistpricehistory,Adventureworks,production,productlistpricehistory,BASE TABLE,Changes in the list price of a product over time.,32 kB,395.0,5,AS3,postgres,AS3_Adventureworks_production_productlistpricehistory
+id,description,size,rows_count,cols_count,type,title,schema_name,system,dbms,data_objects
+AS1_dvdrental_public_actor,,16 kB,200.0,4,BASE_TABLE,actor,public,AS1,postgres,AS1_dvdrental_public_actor
+AS1_dvdrental_public_actor_info,,0 bytes,-1.0,4,VIEW,actor_info,public,AS1,postgres,AS1_dvdrental_public_actor_info
+AS1_dvdrental_public_customer_list,,0 bytes,-1.0,9,VIEW,customer_list,public,AS1,postgres,AS1_dvdrental_public_customer_list
+AS1_dvdrental_public_film_list,,0 bytes,-1.0,8,VIEW,film_list,public,AS1,postgres,AS1_dvdrental_public_film_list
+AS1_dvdrental_public_nicer_but_slower_film_list,,0 bytes,-1.0,8,VIEW,nicer_but_slower_film_list,public,AS1,postgres,AS1_dvdrental_public_nicer_but_slower_film_list
+AS1_dvdrental_public_sales_by_film_category,,0 bytes,-1.0,2,VIEW,sales_by_film_category,public,AS1,postgres,AS1_dvdrental_public_sales_by_film_category
+AS1_dvdrental_public_store,,8192 bytes,2.0,4,BASE_TABLE,store,public,AS1,postgres,AS1_dvdrental_public_store
+AS1_dvdrental_public_sales_by_store,,0 bytes,-1.0,3,VIEW,sales_by_store,public,AS1,postgres,AS1_dvdrental_public_sales_by_store
+AS1_dvdrental_public_staff_list,,0 bytes,-1.0,8,VIEW,staff_list,public,AS1,postgres,AS1_dvdrental_public_staff_list
+AS1_dvdrental_public_address,,64 kB,603.0,8,BASE_TABLE,address,public,AS1,postgres,AS1_dvdrental_public_address
+AS1_dvdrental_public_category,,8192 bytes,16.0,3,BASE_TABLE,category,public,AS1,postgres,AS1_dvdrental_public_category
+AS1_dvdrental_public_city,,40 kB,600.0,4,BASE_TABLE,city,public,AS1,postgres,AS1_dvdrental_public_city
+AS1_dvdrental_public_country,,8192 bytes,109.0,3,BASE_TABLE,country,public,AS1,postgres,AS1_dvdrental_public_country
+AS1_dvdrental_public_customer,,72 kB,599.0,10,BASE_TABLE,customer,public,AS1,postgres,AS1_dvdrental_public_customer
+AS1_dvdrental_public_film_actor,,240 kB,5462.0,3,BASE_TABLE,film_actor,public,AS1,postgres,AS1_dvdrental_public_film_actor
+AS1_dvdrental_public_film_category,,48 kB,1000.0,3,BASE_TABLE,film_category,public,AS1,postgres,AS1_dvdrental_public_film_category
+AS1_dvdrental_public_inventory,,200 kB,4581.0,4,BASE_TABLE,inventory,public,AS1,postgres,AS1_dvdrental_public_inventory
+AS1_dvdrental_public_language,,8192 bytes,6.0,3,BASE_TABLE,language,public,AS1,postgres,AS1_dvdrental_public_language
+AS1_dvdrental_public_rental,,1200 kB,16044.0,7,BASE_TABLE,rental,public,AS1,postgres,AS1_dvdrental_public_rental
+AS1_dvdrental_public_staff,,8192 bytes,2.0,11,BASE_TABLE,staff,public,AS1,postgres,AS1_dvdrental_public_staff
+AS1_dvdrental_public_payment,,864 kB,14596.0,6,BASE_TABLE,payment,public,AS1,postgres,AS1_dvdrental_public_payment
+AS1_dvdrental_public_film,,704 kB,1000.0,13,BASE_TABLE,film,public,AS1,postgres,AS1_dvdrental_public_film
+AS2_flights_bookings_flights_v,Рейсы,0 bytes,-1.0,20,VIEW,flights_v,bookings,AS2,postgres,AS2_flights_bookings_flights_v
+AS2_flights_bookings_ticket_flights,Перелеты,154 MB,2360335.0,4,BASE_TABLE,ticket_flights,bookings,AS2,postgres,AS2_flights_bookings_ticket_flights
+AS2_flights_bookings_routes,Маршруты,256 kB,710.0,10,MATERIALIZED_VIEW,routes,bookings,AS2,postgres,AS2_flights_bookings_routes
+AS2_flights_bookings_boarding_passes,Посадочные талоны,109 MB,1894295.0,4,BASE_TABLE,boarding_passes,bookings,AS2,postgres,AS2_flights_bookings_boarding_passes
+AS2_flights_bookings_aircrafts,Самолеты,8192 bytes,9.0,3,BASE_TABLE,aircrafts,bookings,AS2,postgres,AS2_flights_bookings_aircrafts
+AS2_flights_bookings_flights,Рейсы,6656 kB,65664.0,10,BASE_TABLE,flights,bookings,AS2,postgres,AS2_flights_bookings_flights
+AS2_flights_bookings_airports,Аэропорты,16 kB,104.0,6,BASE_TABLE,airports,bookings,AS2,postgres,AS2_flights_bookings_airports
+AS2_flights_bookings_seats,Места,64 kB,1339.0,3,BASE_TABLE,seats,bookings,AS2,postgres,AS2_flights_bookings_seats
+AS2_flights_bookings_tickets,Билеты,109 MB,829071.0,5,BASE_TABLE,tickets,bookings,AS2,postgres,AS2_flights_bookings_tickets
+AS2_flights_bookings_bookings,Бронирования,30 MB,593433.0,3,BASE_TABLE,bookings,bookings,AS2,postgres,AS2_flights_bookings_bookings
+AS3_Adventureworks_person_addresstype,Types of addresses stored in the Address table.,8192 bytes,6.0,4,BASE_TABLE,addresstype,person,AS3,postgres,AS3_Adventureworks_person_addresstype
+AS3_Adventureworks_person_businessentity,"Source of the ID that connects vendors, customers, and employees with address and contact information.",0 bytes,0.0,3,BASE_TABLE,businessentity,person,AS3,postgres,AS3_Adventureworks_person_businessentity
+AS3_Adventureworks_person_address,"Street address information for customers, employees, and vendors.",2960 kB,19614.0,9,BASE_TABLE,address,person,AS3,postgres,AS3_Adventureworks_person_address
+AS3_Adventureworks_person_businessentityaddress,"Cross-reference table mapping customers, vendors, and employees to their addresses.",0 bytes,0.0,5,BASE_TABLE,businessentityaddress,person,AS3,postgres,AS3_Adventureworks_person_businessentityaddress
+AS3_Adventureworks_person_person,"Human beings involved with AdventureWorks: employees, customer contacts, and vendor contacts.",0 bytes,0.0,13,BASE_TABLE,person,person,AS3,postgres,AS3_Adventureworks_person_person
+AS3_Adventureworks_person_businessentitycontact,"Cross-reference table mapping stores, vendors, and employees to people",0 bytes,0.0,5,BASE_TABLE,businessentitycontact,person,AS3,postgres,AS3_Adventureworks_person_businessentitycontact
+AS3_Adventureworks_person_contacttype,Lookup table containing the types of business entity contacts.,8192 bytes,20.0,3,BASE_TABLE,contacttype,person,AS3,postgres,AS3_Adventureworks_person_contacttype
+AS3_Adventureworks_person_emailaddress,Where to send a person email.,0 bytes,0.0,5,BASE_TABLE,emailaddress,person,AS3,postgres,AS3_Adventureworks_person_emailaddress
+AS3_Adventureworks_person_password,One way hashed authentication information,0 bytes,0.0,5,BASE_TABLE,password,person,AS3,postgres,AS3_Adventureworks_person_password
+AS3_Adventureworks_person_phonenumbertype,Type of phone number of a person.,0 bytes,0.0,3,BASE_TABLE,phonenumbertype,person,AS3,postgres,AS3_Adventureworks_person_phonenumbertype
+AS3_Adventureworks_person_stateprovince,State and province lookup table.,0 bytes,0.0,8,BASE_TABLE,stateprovince,person,AS3,postgres,AS3_Adventureworks_person_stateprovince
+AS3_Adventureworks_person_countryregion,Lookup table containing the ISO standard codes for countries and regions.,0 bytes,0.0,3,BASE_TABLE,countryregion,person,AS3,postgres,AS3_Adventureworks_person_countryregion
+AS3_Adventureworks_humanresources_employee,"Employee information such as salary, department, and title.",0 bytes,0.0,17,BASE_TABLE,employee,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_employee
+AS3_Adventureworks_humanresources_department,Lookup table containing the departments within the Adventure Works Cycles company.,8192 bytes,16.0,4,BASE_TABLE,department,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_department
+AS3_Adventureworks_humanresources_employeedepartmenthistory,Employee department transfers.,16 kB,296.0,6,BASE_TABLE,employeedepartmenthistory,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_employeedepartmenthistory
+AS3_Adventureworks_person_personphone,Telephone number and type of a person.,0 bytes,0.0,4,BASE_TABLE,personphone,person,AS3,postgres,AS3_Adventureworks_person_personphone
+AS3_Adventureworks_humanresources_employeepayhistory,Employee pay history.,24 kB,316.0,5,BASE_TABLE,employeepayhistory,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_employeepayhistory
+AS3_Adventureworks_production_billofmaterials,Items required to make bicycles and bicycle subassemblies. It identifies the heirarchical relationship between a parent product and its components.,224 kB,2679.0,9,BASE_TABLE,billofmaterials,production,AS3,postgres,AS3_Adventureworks_production_billofmaterials
+AS3_Adventureworks_humanresources_jobcandidate,RÃ©sumÃ©s submitted to Human Resources by job applicants.,0 bytes,0.0,4,BASE_TABLE,jobcandidate,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_jobcandidate
+AS3_Adventureworks_production_document,Product maintenance documents.,0 bytes,0.0,15,BASE_TABLE,document,production,AS3,postgres,AS3_Adventureworks_production_document
+AS3_Adventureworks_humanresources_shift,Work shift lookup table.,8192 bytes,3.0,5,BASE_TABLE,shift,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_shift
+AS3_Adventureworks_production_productsubcategory,Product subcategories. See ProductCategory table.,8192 bytes,37.0,5,BASE_TABLE,productsubcategory,production,AS3,postgres,AS3_Adventureworks_production_productsubcategory
+AS3_Adventureworks_production_culture,Lookup table containing the languages in which some AdventureWorks data is stored.,8192 bytes,8.0,3,BASE_TABLE,culture,production,AS3,postgres,AS3_Adventureworks_production_culture
+AS3_Adventureworks_production_productcategory,High-level product categorization.,8192 bytes,4.0,4,BASE_TABLE,productcategory,production,AS3,postgres,AS3_Adventureworks_production_productcategory
+AS3_Adventureworks_production_location,Product inventory and manufacturing locations.,8192 bytes,14.0,5,BASE_TABLE,location,production,AS3,postgres,AS3_Adventureworks_production_location
+AS3_Adventureworks_production_productdescription,Product descriptions in several languages.,0 bytes,0.0,4,BASE_TABLE,productdescription,production,AS3,postgres,AS3_Adventureworks_production_productdescription
+AS3_Adventureworks_production_productmodel,Product model classification.,0 bytes,0.0,6,BASE_TABLE,productmodel,production,AS3,postgres,AS3_Adventureworks_production_productmodel
+AS3_Adventureworks_production_product,Products sold or used in the manfacturing of sold products.,80 kB,504.0,25,BASE_TABLE,product,production,AS3,postgres,AS3_Adventureworks_production_product
+AS3_Adventureworks_production_productinventory,Product inventory information.,72 kB,1069.0,7,BASE_TABLE,productinventory,production,AS3,postgres,AS3_Adventureworks_production_productinventory
+AS3_Adventureworks_production_productcosthistory,Changes in the cost of a product over time.,32 kB,395.0,5,BASE_TABLE,productcosthistory,production,AS3,postgres,AS3_Adventureworks_production_productcosthistory
+AS3_Adventureworks_production_productdocument,Cross-reference table mapping products to related product documents.,8192 bytes,32.0,5,BASE_TABLE,productdocument,production,AS3,postgres,AS3_Adventureworks_production_productdocument
+AS3_Adventureworks_production_illustration,Bicycle assembly diagrams.,0 bytes,0.0,3,BASE_TABLE,illustration,production,AS3,postgres,AS3_Adventureworks_production_illustration
+AS3_Adventureworks_production_productmodelillustration,Cross-reference table mapping product models and illustrations.,8192 bytes,7.0,3,BASE_TABLE,productmodelillustration,production,AS3,postgres,AS3_Adventureworks_production_productmodelillustration
+AS3_Adventureworks_production_productphoto,Product images.,0 bytes,0.0,6,BASE_TABLE,productphoto,production,AS3,postgres,AS3_Adventureworks_production_productphoto
+AS3_Adventureworks_production_productmodelproductdescriptionculture,Cross-reference table mapping product descriptions and the language the description is written in.,40 kB,762.0,4,BASE_TABLE,productmodelproductdescriptionculture,production,AS3,postgres,AS3_Adventureworks_production_productmodelproductdescriptionculture
+AS3_Adventureworks_production_productproductphoto,Cross-reference table mapping products and product photos.,32 kB,504.0,4,BASE_TABLE,productproductphoto,production,AS3,postgres,AS3_Adventureworks_production_productproductphoto
+AS3_Adventureworks_production_unitmeasure,Unit of measure lookup table.,8192 bytes,38.0,3,BASE_TABLE,unitmeasure,production,AS3,postgres,AS3_Adventureworks_production_unitmeasure
+AS3_Adventureworks_production_productreview,Customer reviews of products they have purchased.,8192 bytes,4.0,8,BASE_TABLE,productreview,production,AS3,postgres,AS3_Adventureworks_production_productreview
+AS3_Adventureworks_production_transactionhistoryarchive,Transactions for previous years.,6680 kB,89253.0,9,BASE_TABLE,transactionhistoryarchive,production,AS3,postgres,AS3_Adventureworks_production_transactionhistoryarchive
+AS3_Adventureworks_purchasing_productvendor,Cross-reference table mapping vendors with the products they supply.,48 kB,460.0,11,BASE_TABLE,productvendor,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_productvendor
+AS3_Adventureworks_purchasing_purchaseorderdetail,Individual products associated with a specific purchase order. See PurchaseOrderHeader.,744 kB,8845.0,11,BASE_TABLE,purchaseorderdetail,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_purchaseorderdetail
+AS3_Adventureworks_purchasing_purchaseorderheader,General purchase order information. See PurchaseOrderDetail.,432 kB,4012.0,13,BASE_TABLE,purchaseorderheader,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_purchaseorderheader
+AS3_Adventureworks_production_transactionhistory,"Record of each purchase order, sales order, or work order transaction year to date.",8488 kB,113443.0,9,BASE_TABLE,transactionhistory,production,AS3,postgres,AS3_Adventureworks_production_transactionhistory
+AS3_Adventureworks_production_workorder,Manufacturing work orders.,6000 kB,72591.0,10,BASE_TABLE,workorder,production,AS3,postgres,AS3_Adventureworks_production_workorder
+AS3_Adventureworks_production_scrapreason,Manufacturing failure reasons lookup table.,8192 bytes,16.0,3,BASE_TABLE,scrapreason,production,AS3,postgres,AS3_Adventureworks_production_scrapreason
+AS3_Adventureworks_production_workorderrouting,Work order details.,7000 kB,67131.0,12,BASE_TABLE,workorderrouting,production,AS3,postgres,AS3_Adventureworks_production_workorderrouting
+AS3_Adventureworks_sales_salesorderheadersalesreason,Cross-reference table mapping sales orders to sales reason codes.,1200 kB,27647.0,3,BASE_TABLE,salesorderheadersalesreason,sales,AS3,postgres,AS3_Adventureworks_sales_salesorderheadersalesreason
+AS3_Adventureworks_sales_countryregioncurrency,Cross-reference table mapping ISO currency codes to a country or region.,0 bytes,0.0,3,BASE_TABLE,countryregioncurrency,sales,AS3,postgres,AS3_Adventureworks_sales_countryregioncurrency
+AS3_Adventureworks_sales_currency,Lookup table containing standard ISO currencies.,8192 bytes,105.0,3,BASE_TABLE,currency,sales,AS3,postgres,AS3_Adventureworks_sales_currency
+AS3_Adventureworks_sales_currencyrate,Currency exchange rates.,1016 kB,13532.0,7,BASE_TABLE,currencyrate,sales,AS3,postgres,AS3_Adventureworks_sales_currencyrate
+AS3_Adventureworks_sales_creditcard,Customer credit card information.,1392 kB,19118.0,6,BASE_TABLE,creditcard,sales,AS3,postgres,AS3_Adventureworks_sales_creditcard
+AS3_Adventureworks_sales_personcreditcard,Cross-reference table mapping people to their credit card information in the CreditCard table.,832 kB,19118.0,3,BASE_TABLE,personcreditcard,sales,AS3,postgres,AS3_Adventureworks_sales_personcreditcard
+AS3_Adventureworks_sales_customer,Current customer information. Also see the Person and Store tables.,1328 kB,19820.0,7,BASE_TABLE,customer,sales,AS3,postgres,AS3_Adventureworks_sales_customer
+AS3_Adventureworks_purchasing_vendor,Companies from whom Adventure Works Cycles purchases parts or other goods.,16 kB,104.0,8,BASE_TABLE,vendor,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_vendor
+AS3_Adventureworks_purchasing_shipmethod,Shipping company lookup table.,8192 bytes,5.0,6,BASE_TABLE,shipmethod,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_shipmethod
+AS3_Adventureworks_sales_salesorderheader,General sales order information.,5776 kB,31465.0,26,BASE_TABLE,salesorderheader,sales,AS3,postgres,AS3_Adventureworks_sales_salesorderheader
+AS3_Adventureworks_sales_salesorderdetail,Individual products associated with a specific sales order. See SalesOrderHeader.,12 MB,121317.0,11,BASE_TABLE,salesorderdetail,sales,AS3,postgres,AS3_Adventureworks_sales_salesorderdetail
+AS3_Adventureworks_sales_salesperson,Sales representative current information.,8192 bytes,17.0,9,BASE_TABLE,salesperson,sales,AS3,postgres,AS3_Adventureworks_sales_salesperson
+AS3_Adventureworks_sales_salespersonquotahistory,Sales performance tracking.,16 kB,163.0,5,BASE_TABLE,salespersonquotahistory,sales,AS3,postgres,AS3_Adventureworks_sales_salespersonquotahistory
+AS3_Adventureworks_sales_salesterritory,Sales territory lookup table.,8192 bytes,10.0,10,BASE_TABLE,salesterritory,sales,AS3,postgres,AS3_Adventureworks_sales_salesterritory
+AS3_Adventureworks_sales_salestaxrate,Tax rate lookup table.,8192 bytes,29.0,7,BASE_TABLE,salestaxrate,sales,AS3,postgres,AS3_Adventureworks_sales_salestaxrate
+AS3_Adventureworks_sales_salesterritoryhistory,Sales representative transfers to other sales territories.,8192 bytes,17.0,6,BASE_TABLE,salesterritoryhistory,sales,AS3,postgres,AS3_Adventureworks_sales_salesterritoryhistory
+AS3_Adventureworks_sales_specialofferproduct,Cross-reference table mapping products to special offer discounts.,32 kB,538.0,4,BASE_TABLE,specialofferproduct,sales,AS3,postgres,AS3_Adventureworks_sales_specialofferproduct
+AS3_Adventureworks_sales_salesreason,Lookup table of customer purchase reasons.,8192 bytes,10.0,4,BASE_TABLE,salesreason,sales,AS3,postgres,AS3_Adventureworks_sales_salesreason
+AS3_Adventureworks_sales_shoppingcartitem,Contains online customer orders until the order is submitted or cancelled.,8192 bytes,3.0,6,BASE_TABLE,shoppingcartitem,sales,AS3,postgres,AS3_Adventureworks_sales_shoppingcartitem
+AS3_Adventureworks_sales_specialoffer,Sale discounts lookup table.,8192 bytes,16.0,11,BASE_TABLE,specialoffer,sales,AS3,postgres,AS3_Adventureworks_sales_specialoffer
+AS3_Adventureworks_sales_store,Customers (resellers) of Adventure Works products.,0 bytes,0.0,6,BASE_TABLE,store,sales,AS3,postgres,AS3_Adventureworks_sales_store
+AS3_Adventureworks_production_productlistpricehistory,Changes in the list price of a product over time.,32 kB,395.0,5,BASE_TABLE,productlistpricehistory,production,AS3,postgres,AS3_Adventureworks_production_productlistpricehistory
+AS3_Adventureworks_person_vadditionalcontactinfo,,0 bytes,-1.0,17,VIEW,vadditionalcontactinfo,person,AS3,postgres,AS3_Adventureworks_person_vadditionalcontactinfo
+AS3_Adventureworks_humanresources_vemployee,,0 bytes,-1.0,18,VIEW,vemployee,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vemployee
+AS3_Adventureworks_humanresources_vemployeedepartment,,0 bytes,-1.0,10,VIEW,vemployeedepartment,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vemployeedepartment
+AS3_Adventureworks_humanresources_vemployeedepartmenthistory,,0 bytes,-1.0,11,VIEW,vemployeedepartmenthistory,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vemployeedepartmenthistory
+AS3_Adventureworks_sales_vindividualcustomer,,0 bytes,-1.0,18,VIEW,vindividualcustomer,sales,AS3,postgres,AS3_Adventureworks_sales_vindividualcustomer
+AS3_Adventureworks_sales_vpersondemographics,,0 bytes,-1.0,13,VIEW,vpersondemographics,sales,AS3,postgres,AS3_Adventureworks_sales_vpersondemographics
+AS3_Adventureworks_humanresources_vjobcandidate,,0 bytes,-1.0,16,VIEW,vjobcandidate,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidate
+AS3_Adventureworks_humanresources_vjobcandidateemployment,,0 bytes,-1.0,11,VIEW,vjobcandidateemployment,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidateemployment
+AS3_Adventureworks_humanresources_vjobcandidateeducation,,0 bytes,-1.0,13,VIEW,vjobcandidateeducation,humanresources,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidateeducation
+AS3_Adventureworks_production_vproductanddescription,,0 bytes,0.0,5,MATERIALIZED_VIEW,vproductanddescription,production,AS3,postgres,AS3_Adventureworks_production_vproductanddescription
+AS3_Adventureworks_production_vproductmodelcatalogdescription,,0 bytes,-1.0,25,VIEW,vproductmodelcatalogdescription,production,AS3,postgres,AS3_Adventureworks_production_vproductmodelcatalogdescription
+AS3_Adventureworks_production_vproductmodelinstructions,,0 bytes,-1.0,11,VIEW,vproductmodelinstructions,production,AS3,postgres,AS3_Adventureworks_production_vproductmodelinstructions
+AS3_Adventureworks_sales_vsalesperson,,0 bytes,-1.0,22,VIEW,vsalesperson,sales,AS3,postgres,AS3_Adventureworks_sales_vsalesperson
+AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata,,0 bytes,-1.0,6,VIEW,vsalespersonsalesbyfiscalyearsdata,sales,AS3,postgres,AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata
+AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears,,0 bytes,-1.0,7,VIEW,vsalespersonsalesbyfiscalyears,sales,AS3,postgres,AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears
+AS3_Adventureworks_sales_vstorewithaddresses,,0 bytes,-1.0,9,VIEW,vstorewithaddresses,sales,AS3,postgres,AS3_Adventureworks_sales_vstorewithaddresses
+AS3_Adventureworks_purchasing_vvendorwithcontacts,,0 bytes,-1.0,12,VIEW,vvendorwithcontacts,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_vvendorwithcontacts
+AS3_Adventureworks_purchasing_vvendorwithaddresses,,0 bytes,-1.0,9,VIEW,vvendorwithaddresses,purchasing,AS3,postgres,AS3_Adventureworks_purchasing_vvendorwithaddresses
+AS3_Adventureworks_person_vstateprovincecountryregion,,0 bytes,0.0,7,MATERIALIZED_VIEW,vstateprovincecountryregion,person,AS3,postgres,AS3_Adventureworks_person_vstateprovincecountryregion
+AS3_Adventureworks_sales_vstorewithdemographics,,0 bytes,-1.0,12,VIEW,vstorewithdemographics,sales,AS3,postgres,AS3_Adventureworks_sales_vstorewithdemographics
+AS3_Adventureworks_sales_vstorewithcontacts,,0 bytes,-1.0,12,VIEW,vstorewithcontacts,sales,AS3,postgres,AS3_Adventureworks_sales_vstorewithcontacts
+AS3_Adventureworks_pe_a,,0 bytes,-1.0,10,VIEW,a,pe,AS3,postgres,AS3_Adventureworks_pe_a
+AS3_Adventureworks_pe_at,,0 bytes,-1.0,5,VIEW,at,pe,AS3,postgres,AS3_Adventureworks_pe_at
+AS3_Adventureworks_pe_be,,0 bytes,-1.0,4,VIEW,be,pe,AS3,postgres,AS3_Adventureworks_pe_be
+AS3_Adventureworks_pe_bea,,0 bytes,-1.0,6,VIEW,bea,pe,AS3,postgres,AS3_Adventureworks_pe_bea
+AS3_Adventureworks_pe_bec,,0 bytes,-1.0,6,VIEW,bec,pe,AS3,postgres,AS3_Adventureworks_pe_bec
+AS3_Adventureworks_pe_ct,,0 bytes,-1.0,4,VIEW,ct,pe,AS3,postgres,AS3_Adventureworks_pe_ct
+AS3_Adventureworks_pe_cr,,0 bytes,-1.0,3,VIEW,cr,pe,AS3,postgres,AS3_Adventureworks_pe_cr
+AS3_Adventureworks_pe_e,,0 bytes,-1.0,6,VIEW,e,pe,AS3,postgres,AS3_Adventureworks_pe_e
+AS3_Adventureworks_pe_pa,,0 bytes,-1.0,6,VIEW,pa,pe,AS3,postgres,AS3_Adventureworks_pe_pa
+AS3_Adventureworks_pe_p,,0 bytes,-1.0,14,VIEW,p,pe,AS3,postgres,AS3_Adventureworks_pe_p
+AS3_Adventureworks_pe_pp,,0 bytes,-1.0,5,VIEW,pp,pe,AS3,postgres,AS3_Adventureworks_pe_pp
+AS3_Adventureworks_pe_pnt,,0 bytes,-1.0,4,VIEW,pnt,pe,AS3,postgres,AS3_Adventureworks_pe_pnt
+AS3_Adventureworks_pe_sp,,0 bytes,-1.0,9,VIEW,sp,pe,AS3,postgres,AS3_Adventureworks_pe_sp
+AS3_Adventureworks_hr_d,,0 bytes,-1.0,5,VIEW,d,hr,AS3,postgres,AS3_Adventureworks_hr_d
+AS3_Adventureworks_hr_e,,0 bytes,-1.0,16,VIEW,e,hr,AS3,postgres,AS3_Adventureworks_hr_e
+AS3_Adventureworks_hr_edh,,0 bytes,-1.0,7,VIEW,edh,hr,AS3,postgres,AS3_Adventureworks_hr_edh
+AS3_Adventureworks_hr_eph,,0 bytes,-1.0,6,VIEW,eph,hr,AS3,postgres,AS3_Adventureworks_hr_eph
+AS3_Adventureworks_hr_jc,,0 bytes,-1.0,5,VIEW,jc,hr,AS3,postgres,AS3_Adventureworks_hr_jc
+AS3_Adventureworks_hr_s,,0 bytes,-1.0,6,VIEW,s,hr,AS3,postgres,AS3_Adventureworks_hr_s
+AS3_Adventureworks_pr_bom,,0 bytes,-1.0,10,VIEW,bom,pr,AS3,postgres,AS3_Adventureworks_pr_bom
+AS3_Adventureworks_pr_c,,0 bytes,-1.0,4,VIEW,c,pr,AS3,postgres,AS3_Adventureworks_pr_c
+AS3_Adventureworks_pr_d,,0 bytes,-1.0,13,VIEW,d,pr,AS3,postgres,AS3_Adventureworks_pr_d
+AS3_Adventureworks_pr_i,,0 bytes,-1.0,4,VIEW,i,pr,AS3,postgres,AS3_Adventureworks_pr_i
+AS3_Adventureworks_pr_l,,0 bytes,-1.0,6,VIEW,l,pr,AS3,postgres,AS3_Adventureworks_pr_l
+AS3_Adventureworks_pr_p,,0 bytes,-1.0,26,VIEW,p,pr,AS3,postgres,AS3_Adventureworks_pr_p
+AS3_Adventureworks_pr_pc,,0 bytes,-1.0,5,VIEW,pc,pr,AS3,postgres,AS3_Adventureworks_pr_pc
+AS3_Adventureworks_pr_pch,,0 bytes,-1.0,6,VIEW,pch,pr,AS3,postgres,AS3_Adventureworks_pr_pch
+AS3_Adventureworks_pr_pd,,0 bytes,-1.0,5,VIEW,pd,pr,AS3,postgres,AS3_Adventureworks_pr_pd
+AS3_Adventureworks_pr_pdoc,,0 bytes,-1.0,4,VIEW,pdoc,pr,AS3,postgres,AS3_Adventureworks_pr_pdoc
+AS3_Adventureworks_pr_pi,,0 bytes,-1.0,8,VIEW,pi,pr,AS3,postgres,AS3_Adventureworks_pr_pi
+AS3_Adventureworks_pr_plph,,0 bytes,-1.0,6,VIEW,plph,pr,AS3,postgres,AS3_Adventureworks_pr_plph
+AS3_Adventureworks_pr_pm,,0 bytes,-1.0,7,VIEW,pm,pr,AS3,postgres,AS3_Adventureworks_pr_pm
+AS3_Adventureworks_pr_pmi,,0 bytes,-1.0,3,VIEW,pmi,pr,AS3,postgres,AS3_Adventureworks_pr_pmi
+AS3_Adventureworks_pr_pmpdc,,0 bytes,-1.0,4,VIEW,pmpdc,pr,AS3,postgres,AS3_Adventureworks_pr_pmpdc
+AS3_Adventureworks_pr_pp,,0 bytes,-1.0,7,VIEW,pp,pr,AS3,postgres,AS3_Adventureworks_pr_pp
+AS3_Adventureworks_pr_ppp,,0 bytes,-1.0,4,VIEW,ppp,pr,AS3,postgres,AS3_Adventureworks_pr_ppp
+AS3_Adventureworks_pr_pr,,0 bytes,-1.0,9,VIEW,pr,pr,AS3,postgres,AS3_Adventureworks_pr_pr
+AS3_Adventureworks_pr_psc,,0 bytes,-1.0,6,VIEW,psc,pr,AS3,postgres,AS3_Adventureworks_pr_psc
+AS3_Adventureworks_pr_sr,,0 bytes,-1.0,4,VIEW,sr,pr,AS3,postgres,AS3_Adventureworks_pr_sr
+AS3_Adventureworks_pr_th,,0 bytes,-1.0,10,VIEW,th,pr,AS3,postgres,AS3_Adventureworks_pr_th
+AS3_Adventureworks_pr_tha,,0 bytes,-1.0,10,VIEW,tha,pr,AS3,postgres,AS3_Adventureworks_pr_tha
+AS3_Adventureworks_pr_um,,0 bytes,-1.0,4,VIEW,um,pr,AS3,postgres,AS3_Adventureworks_pr_um
+AS3_Adventureworks_pr_w,,0 bytes,-1.0,10,VIEW,w,pr,AS3,postgres,AS3_Adventureworks_pr_w
+AS3_Adventureworks_pr_wr,,0 bytes,-1.0,13,VIEW,wr,pr,AS3,postgres,AS3_Adventureworks_pr_wr
+AS3_Adventureworks_pu_pv,,0 bytes,-1.0,12,VIEW,pv,pu,AS3,postgres,AS3_Adventureworks_pu_pv
+AS3_Adventureworks_pu_pod,,0 bytes,-1.0,10,VIEW,pod,pu,AS3,postgres,AS3_Adventureworks_pu_pod
+AS3_Adventureworks_pu_poh,,0 bytes,-1.0,13,VIEW,poh,pu,AS3,postgres,AS3_Adventureworks_pu_poh
+AS3_Adventureworks_pu_sm,,0 bytes,-1.0,7,VIEW,sm,pu,AS3,postgres,AS3_Adventureworks_pu_sm
+AS3_Adventureworks_pu_v,,0 bytes,-1.0,9,VIEW,v,pu,AS3,postgres,AS3_Adventureworks_pu_v
+AS3_Adventureworks_sa_crc,,0 bytes,-1.0,3,VIEW,crc,sa,AS3,postgres,AS3_Adventureworks_sa_crc
+AS3_Adventureworks_sa_cc,,0 bytes,-1.0,7,VIEW,cc,sa,AS3,postgres,AS3_Adventureworks_sa_cc
+AS3_Adventureworks_sa_cu,,0 bytes,-1.0,4,VIEW,cu,sa,AS3,postgres,AS3_Adventureworks_sa_cu
+AS3_Adventureworks_sa_cr,,0 bytes,-1.0,7,VIEW,cr,sa,AS3,postgres,AS3_Adventureworks_sa_cr
+AS3_Adventureworks_sa_c,,0 bytes,-1.0,7,VIEW,c,sa,AS3,postgres,AS3_Adventureworks_sa_c
+AS3_Adventureworks_sa_pcc,,0 bytes,-1.0,4,VIEW,pcc,sa,AS3,postgres,AS3_Adventureworks_sa_pcc
+AS3_Adventureworks_sa_sod,,0 bytes,-1.0,11,VIEW,sod,sa,AS3,postgres,AS3_Adventureworks_sa_sod
+AS3_Adventureworks_sa_soh,,0 bytes,-1.0,26,VIEW,soh,sa,AS3,postgres,AS3_Adventureworks_sa_soh
+AS3_Adventureworks_sa_sohsr,,0 bytes,-1.0,3,VIEW,sohsr,sa,AS3,postgres,AS3_Adventureworks_sa_sohsr
+AS3_Adventureworks_sa_sp,,0 bytes,-1.0,10,VIEW,sp,sa,AS3,postgres,AS3_Adventureworks_sa_sp
+AS3_Adventureworks_sa_spqh,,0 bytes,-1.0,6,VIEW,spqh,sa,AS3,postgres,AS3_Adventureworks_sa_spqh
+AS3_Adventureworks_sa_sr,,0 bytes,-1.0,5,VIEW,sr,sa,AS3,postgres,AS3_Adventureworks_sa_sr
+AS3_Adventureworks_sa_tr,,0 bytes,-1.0,8,VIEW,tr,sa,AS3,postgres,AS3_Adventureworks_sa_tr
+AS3_Adventureworks_sa_st,,0 bytes,-1.0,11,VIEW,st,sa,AS3,postgres,AS3_Adventureworks_sa_st
+AS3_Adventureworks_sa_sth,,0 bytes,-1.0,7,VIEW,sth,sa,AS3,postgres,AS3_Adventureworks_sa_sth
+AS3_Adventureworks_sa_sci,,0 bytes,-1.0,7,VIEW,sci,sa,AS3,postgres,AS3_Adventureworks_sa_sci
+AS3_Adventureworks_sa_so,,0 bytes,-1.0,12,VIEW,so,sa,AS3,postgres,AS3_Adventureworks_sa_so
+AS3_Adventureworks_sa_sop,,0 bytes,-1.0,5,VIEW,sop,sa,AS3,postgres,AS3_Adventureworks_sa_sop
+AS3_Adventureworks_sa_s,,0 bytes,-1.0,7,VIEW,s,sa,AS3,postgres,AS3_Adventureworks_sa_s

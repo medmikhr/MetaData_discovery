@@ -12,11 +12,12 @@ if __name__ == '__main__':
 
     for section in get_sections():
         db_creds = load_config(section = section)
+        db = db_creds['database']
         as_system = db_creds.pop('as')
         connection = db_connect(db_creds).cursor()
         cursor = connection
-        create_ph_level(cursor, 'physical_tables', as_system)
-        create_ph_level(cursor, 'physical_attributes', as_system)
+        create_ph_level(cursor, 'physical_tables', as_system, db)
+        create_ph_level(cursor, 'physical_attributes', as_system, db)
         connection.close()
 
     create_upper_level('logical_entities')
