@@ -1,7 +1,8 @@
 select
 col.column_name as title,
-col.column_name as description,
+col.description,
 col.type,
+col.table_type,
 constr.pk_flag,
 constr.fk_flag,
 concat(col.table_catalog, '_', col.table_schema, '_', col.table_name, '.', col.column_name) as id,
@@ -9,19 +10,26 @@ concat(col.table_catalog, '_', col.table_schema, '_', col.table_name) as physica
 from
 (
 	select
-		t.table_catalog as table_catalog,
-		t.table_schema as table_schema,
-		t.table_name as table_name,
-		c.column_name as column_name,
-		c.data_type as type
-	from
-		information_schema.tables t
-	inner join information_schema.columns c on
-		t.table_name = c.table_name
+	    c.table_schema,
+	    c.table_name,
+	    c.column_name,
+		c.table_catalog,
+		c.data_type as type,
+	    pgd.description,
+		t.table_type
+	from pg_catalog.pg_statio_all_tables as st
+	inner join pg_catalog.pg_description pgd
+	on pgd.objoid = st.relid
+	inner join information_schema.columns c
+	on  c.table_schema = st.schemaname and
+	    c.table_name   = st.relname and
+		c.ordinal_position = pgd.objsubid
+	inner join information_schema.tables t
+	on	t.table_name = c.table_name
 		and t.table_schema = c.table_schema
-	where 1=1
-		and t.table_type= 'BASE TABLE'
-		AND t.table_schema not in ('pg_catalog', 'information_schema')
+	-- where 1=1
+		-- and t.table_type= 'BASE TABLE'
+		-- AND t.table_schema not in ('pg_catalog', 'information_schema')
 ) as col
 left join
 (

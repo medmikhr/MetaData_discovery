@@ -1,13 +1,6 @@
 id,database,schema_name,title,type,description,size,rows_count,cols_count,system,dbms,data_objects
 AS1_dvdrental_public_actor,dvdrental,public,actor,BASE TABLE,,16 kB,200.0,4,AS1,postgres,AS1_dvdrental_public_actor
-AS1_dvdrental_public_actor_info,dvdrental,public,actor_info,VIEW,,0 bytes,-1.0,4,AS1,postgres,AS1_dvdrental_public_actor_info
-AS1_dvdrental_public_customer_list,dvdrental,public,customer_list,VIEW,,0 bytes,-1.0,9,AS1,postgres,AS1_dvdrental_public_customer_list
-AS1_dvdrental_public_film_list,dvdrental,public,film_list,VIEW,,0 bytes,-1.0,8,AS1,postgres,AS1_dvdrental_public_film_list
-AS1_dvdrental_public_nicer_but_slower_film_list,dvdrental,public,nicer_but_slower_film_list,VIEW,,0 bytes,-1.0,8,AS1,postgres,AS1_dvdrental_public_nicer_but_slower_film_list
-AS1_dvdrental_public_sales_by_film_category,dvdrental,public,sales_by_film_category,VIEW,,0 bytes,-1.0,2,AS1,postgres,AS1_dvdrental_public_sales_by_film_category
 AS1_dvdrental_public_store,dvdrental,public,store,BASE TABLE,,8192 bytes,2.0,4,AS1,postgres,AS1_dvdrental_public_store
-AS1_dvdrental_public_sales_by_store,dvdrental,public,sales_by_store,VIEW,,0 bytes,-1.0,3,AS1,postgres,AS1_dvdrental_public_sales_by_store
-AS1_dvdrental_public_staff_list,dvdrental,public,staff_list,VIEW,,0 bytes,-1.0,8,AS1,postgres,AS1_dvdrental_public_staff_list
 AS1_dvdrental_public_address,dvdrental,public,address,BASE TABLE,,64 kB,603.0,8,AS1,postgres,AS1_dvdrental_public_address
 AS1_dvdrental_public_category,dvdrental,public,category,BASE TABLE,,8192 bytes,16.0,3,AS1,postgres,AS1_dvdrental_public_category
 AS1_dvdrental_public_city,dvdrental,public,city,BASE TABLE,,40 kB,600.0,4,AS1,postgres,AS1_dvdrental_public_city
@@ -21,7 +14,6 @@ AS1_dvdrental_public_rental,dvdrental,public,rental,BASE TABLE,,1200 kB,16044.0,
 AS1_dvdrental_public_staff,dvdrental,public,staff,BASE TABLE,,8192 bytes,2.0,11,AS1,postgres,AS1_dvdrental_public_staff
 AS1_dvdrental_public_payment,dvdrental,public,payment,BASE TABLE,,864 kB,14596.0,6,AS1,postgres,AS1_dvdrental_public_payment
 AS1_dvdrental_public_film,dvdrental,public,film,BASE TABLE,,704 kB,1000.0,13,AS1,postgres,AS1_dvdrental_public_film
-AS2_flights_bookings_flights_v,flights,bookings,flights_v,VIEW,Рейсы,0 bytes,-1.0,20,AS2,postgres,AS2_flights_bookings_flights_v
 AS2_flights_bookings_ticket_flights,flights,bookings,ticket_flights,BASE TABLE,Перелеты,154 MB,2360335.0,4,AS2,postgres,AS2_flights_bookings_ticket_flights
 AS2_flights_bookings_boarding_passes,flights,bookings,boarding_passes,BASE TABLE,Посадочные талоны,109 MB,1894295.0,4,AS2,postgres,AS2_flights_bookings_boarding_passes
 AS2_flights_bookings_aircrafts,flights,bookings,aircrafts,BASE TABLE,Самолеты,8192 bytes,9.0,3,AS2,postgres,AS2_flights_bookings_aircrafts
@@ -98,90 +90,3 @@ AS3_Adventureworks_sales_shoppingcartitem,Adventureworks,sales,shoppingcartitem,
 AS3_Adventureworks_sales_specialoffer,Adventureworks,sales,specialoffer,BASE TABLE,Sale discounts lookup table.,8192 bytes,16.0,11,AS3,postgres,AS3_Adventureworks_sales_specialoffer
 AS3_Adventureworks_sales_store,Adventureworks,sales,store,BASE TABLE,Customers (resellers) of Adventure Works products.,0 bytes,0.0,6,AS3,postgres,AS3_Adventureworks_sales_store
 AS3_Adventureworks_production_productlistpricehistory,Adventureworks,production,productlistpricehistory,BASE TABLE,Changes in the list price of a product over time.,32 kB,395.0,5,AS3,postgres,AS3_Adventureworks_production_productlistpricehistory
-AS3_Adventureworks_person_vadditionalcontactinfo,Adventureworks,person,vadditionalcontactinfo,VIEW,,0 bytes,-1.0,17,AS3,postgres,AS3_Adventureworks_person_vadditionalcontactinfo
-AS3_Adventureworks_humanresources_vemployee,Adventureworks,humanresources,vemployee,VIEW,,0 bytes,-1.0,18,AS3,postgres,AS3_Adventureworks_humanresources_vemployee
-AS3_Adventureworks_humanresources_vemployeedepartment,Adventureworks,humanresources,vemployeedepartment,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_humanresources_vemployeedepartment
-AS3_Adventureworks_humanresources_vemployeedepartmenthistory,Adventureworks,humanresources,vemployeedepartmenthistory,VIEW,,0 bytes,-1.0,11,AS3,postgres,AS3_Adventureworks_humanresources_vemployeedepartmenthistory
-AS3_Adventureworks_sales_vindividualcustomer,Adventureworks,sales,vindividualcustomer,VIEW,,0 bytes,-1.0,18,AS3,postgres,AS3_Adventureworks_sales_vindividualcustomer
-AS3_Adventureworks_sales_vpersondemographics,Adventureworks,sales,vpersondemographics,VIEW,,0 bytes,-1.0,13,AS3,postgres,AS3_Adventureworks_sales_vpersondemographics
-AS3_Adventureworks_humanresources_vjobcandidate,Adventureworks,humanresources,vjobcandidate,VIEW,,0 bytes,-1.0,16,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidate
-AS3_Adventureworks_humanresources_vjobcandidateemployment,Adventureworks,humanresources,vjobcandidateemployment,VIEW,,0 bytes,-1.0,11,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidateemployment
-AS3_Adventureworks_humanresources_vjobcandidateeducation,Adventureworks,humanresources,vjobcandidateeducation,VIEW,,0 bytes,-1.0,13,AS3,postgres,AS3_Adventureworks_humanresources_vjobcandidateeducation
-AS3_Adventureworks_production_vproductmodelcatalogdescription,Adventureworks,production,vproductmodelcatalogdescription,VIEW,,0 bytes,-1.0,25,AS3,postgres,AS3_Adventureworks_production_vproductmodelcatalogdescription
-AS3_Adventureworks_production_vproductmodelinstructions,Adventureworks,production,vproductmodelinstructions,VIEW,,0 bytes,-1.0,11,AS3,postgres,AS3_Adventureworks_production_vproductmodelinstructions
-AS3_Adventureworks_sales_vsalesperson,Adventureworks,sales,vsalesperson,VIEW,,0 bytes,-1.0,22,AS3,postgres,AS3_Adventureworks_sales_vsalesperson
-AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata,Adventureworks,sales,vsalespersonsalesbyfiscalyearsdata,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyearsdata
-AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears,Adventureworks,sales,vsalespersonsalesbyfiscalyears,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sales_vsalespersonsalesbyfiscalyears
-AS3_Adventureworks_sales_vstorewithaddresses,Adventureworks,sales,vstorewithaddresses,VIEW,,0 bytes,-1.0,9,AS3,postgres,AS3_Adventureworks_sales_vstorewithaddresses
-AS3_Adventureworks_purchasing_vvendorwithcontacts,Adventureworks,purchasing,vvendorwithcontacts,VIEW,,0 bytes,-1.0,12,AS3,postgres,AS3_Adventureworks_purchasing_vvendorwithcontacts
-AS3_Adventureworks_purchasing_vvendorwithaddresses,Adventureworks,purchasing,vvendorwithaddresses,VIEW,,0 bytes,-1.0,9,AS3,postgres,AS3_Adventureworks_purchasing_vvendorwithaddresses
-AS3_Adventureworks_sales_vstorewithdemographics,Adventureworks,sales,vstorewithdemographics,VIEW,,0 bytes,-1.0,12,AS3,postgres,AS3_Adventureworks_sales_vstorewithdemographics
-AS3_Adventureworks_sales_vstorewithcontacts,Adventureworks,sales,vstorewithcontacts,VIEW,,0 bytes,-1.0,12,AS3,postgres,AS3_Adventureworks_sales_vstorewithcontacts
-AS3_Adventureworks_pe_a,Adventureworks,pe,a,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pe_a
-AS3_Adventureworks_pe_at,Adventureworks,pe,at,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_pe_at
-AS3_Adventureworks_pe_be,Adventureworks,pe,be,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pe_be
-AS3_Adventureworks_pe_bea,Adventureworks,pe,bea,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pe_bea
-AS3_Adventureworks_pe_bec,Adventureworks,pe,bec,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pe_bec
-AS3_Adventureworks_pe_ct,Adventureworks,pe,ct,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pe_ct
-AS3_Adventureworks_pe_cr,Adventureworks,pe,cr,VIEW,,0 bytes,-1.0,3,AS3,postgres,AS3_Adventureworks_pe_cr
-AS3_Adventureworks_pe_e,Adventureworks,pe,e,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pe_e
-AS3_Adventureworks_pe_pa,Adventureworks,pe,pa,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pe_pa
-AS3_Adventureworks_pe_p,Adventureworks,pe,p,VIEW,,0 bytes,-1.0,14,AS3,postgres,AS3_Adventureworks_pe_p
-AS3_Adventureworks_pe_pp,Adventureworks,pe,pp,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_pe_pp
-AS3_Adventureworks_pe_pnt,Adventureworks,pe,pnt,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pe_pnt
-AS3_Adventureworks_pe_sp,Adventureworks,pe,sp,VIEW,,0 bytes,-1.0,9,AS3,postgres,AS3_Adventureworks_pe_sp
-AS3_Adventureworks_hr_d,Adventureworks,hr,d,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_hr_d
-AS3_Adventureworks_hr_e,Adventureworks,hr,e,VIEW,,0 bytes,-1.0,16,AS3,postgres,AS3_Adventureworks_hr_e
-AS3_Adventureworks_hr_edh,Adventureworks,hr,edh,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_hr_edh
-AS3_Adventureworks_hr_eph,Adventureworks,hr,eph,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_hr_eph
-AS3_Adventureworks_hr_jc,Adventureworks,hr,jc,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_hr_jc
-AS3_Adventureworks_hr_s,Adventureworks,hr,s,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_hr_s
-AS3_Adventureworks_pr_bom,Adventureworks,pr,bom,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pr_bom
-AS3_Adventureworks_pr_c,Adventureworks,pr,c,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_c
-AS3_Adventureworks_pr_d,Adventureworks,pr,d,VIEW,,0 bytes,-1.0,13,AS3,postgres,AS3_Adventureworks_pr_d
-AS3_Adventureworks_pr_i,Adventureworks,pr,i,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_i
-AS3_Adventureworks_pr_l,Adventureworks,pr,l,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pr_l
-AS3_Adventureworks_pr_p,Adventureworks,pr,p,VIEW,,0 bytes,-1.0,26,AS3,postgres,AS3_Adventureworks_pr_p
-AS3_Adventureworks_pr_pc,Adventureworks,pr,pc,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_pr_pc
-AS3_Adventureworks_pr_pch,Adventureworks,pr,pch,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pr_pch
-AS3_Adventureworks_pr_pd,Adventureworks,pr,pd,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_pr_pd
-AS3_Adventureworks_pr_pdoc,Adventureworks,pr,pdoc,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_pdoc
-AS3_Adventureworks_pr_pi,Adventureworks,pr,pi,VIEW,,0 bytes,-1.0,8,AS3,postgres,AS3_Adventureworks_pr_pi
-AS3_Adventureworks_pr_plph,Adventureworks,pr,plph,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pr_plph
-AS3_Adventureworks_pr_pm,Adventureworks,pr,pm,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_pr_pm
-AS3_Adventureworks_pr_pmi,Adventureworks,pr,pmi,VIEW,,0 bytes,-1.0,3,AS3,postgres,AS3_Adventureworks_pr_pmi
-AS3_Adventureworks_pr_pmpdc,Adventureworks,pr,pmpdc,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_pmpdc
-AS3_Adventureworks_pr_pp,Adventureworks,pr,pp,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_pr_pp
-AS3_Adventureworks_pr_ppp,Adventureworks,pr,ppp,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_ppp
-AS3_Adventureworks_pr_pr,Adventureworks,pr,pr,VIEW,,0 bytes,-1.0,9,AS3,postgres,AS3_Adventureworks_pr_pr
-AS3_Adventureworks_pr_psc,Adventureworks,pr,psc,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_pr_psc
-AS3_Adventureworks_pr_sr,Adventureworks,pr,sr,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_sr
-AS3_Adventureworks_pr_th,Adventureworks,pr,th,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pr_th
-AS3_Adventureworks_pr_tha,Adventureworks,pr,tha,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pr_tha
-AS3_Adventureworks_pr_um,Adventureworks,pr,um,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_pr_um
-AS3_Adventureworks_pr_w,Adventureworks,pr,w,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pr_w
-AS3_Adventureworks_pr_wr,Adventureworks,pr,wr,VIEW,,0 bytes,-1.0,13,AS3,postgres,AS3_Adventureworks_pr_wr
-AS3_Adventureworks_pu_pv,Adventureworks,pu,pv,VIEW,,0 bytes,-1.0,12,AS3,postgres,AS3_Adventureworks_pu_pv
-AS3_Adventureworks_pu_pod,Adventureworks,pu,pod,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_pu_pod
-AS3_Adventureworks_pu_poh,Adventureworks,pu,poh,VIEW,,0 bytes,-1.0,13,AS3,postgres,AS3_Adventureworks_pu_poh
-AS3_Adventureworks_pu_sm,Adventureworks,pu,sm,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_pu_sm
-AS3_Adventureworks_pu_v,Adventureworks,pu,v,VIEW,,0 bytes,-1.0,9,AS3,postgres,AS3_Adventureworks_pu_v
-AS3_Adventureworks_sa_crc,Adventureworks,sa,crc,VIEW,,0 bytes,-1.0,3,AS3,postgres,AS3_Adventureworks_sa_crc
-AS3_Adventureworks_sa_cc,Adventureworks,sa,cc,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_cc
-AS3_Adventureworks_sa_cu,Adventureworks,sa,cu,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_sa_cu
-AS3_Adventureworks_sa_cr,Adventureworks,sa,cr,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_cr
-AS3_Adventureworks_sa_c,Adventureworks,sa,c,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_c
-AS3_Adventureworks_sa_pcc,Adventureworks,sa,pcc,VIEW,,0 bytes,-1.0,4,AS3,postgres,AS3_Adventureworks_sa_pcc
-AS3_Adventureworks_sa_sod,Adventureworks,sa,sod,VIEW,,0 bytes,-1.0,11,AS3,postgres,AS3_Adventureworks_sa_sod
-AS3_Adventureworks_sa_soh,Adventureworks,sa,soh,VIEW,,0 bytes,-1.0,26,AS3,postgres,AS3_Adventureworks_sa_soh
-AS3_Adventureworks_sa_sohsr,Adventureworks,sa,sohsr,VIEW,,0 bytes,-1.0,3,AS3,postgres,AS3_Adventureworks_sa_sohsr
-AS3_Adventureworks_sa_sp,Adventureworks,sa,sp,VIEW,,0 bytes,-1.0,10,AS3,postgres,AS3_Adventureworks_sa_sp
-AS3_Adventureworks_sa_spqh,Adventureworks,sa,spqh,VIEW,,0 bytes,-1.0,6,AS3,postgres,AS3_Adventureworks_sa_spqh
-AS3_Adventureworks_sa_sr,Adventureworks,sa,sr,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_sa_sr
-AS3_Adventureworks_sa_tr,Adventureworks,sa,tr,VIEW,,0 bytes,-1.0,8,AS3,postgres,AS3_Adventureworks_sa_tr
-AS3_Adventureworks_sa_st,Adventureworks,sa,st,VIEW,,0 bytes,-1.0,11,AS3,postgres,AS3_Adventureworks_sa_st
-AS3_Adventureworks_sa_sth,Adventureworks,sa,sth,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_sth
-AS3_Adventureworks_sa_sci,Adventureworks,sa,sci,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_sci
-AS3_Adventureworks_sa_so,Adventureworks,sa,so,VIEW,,0 bytes,-1.0,12,AS3,postgres,AS3_Adventureworks_sa_so
-AS3_Adventureworks_sa_sop,Adventureworks,sa,sop,VIEW,,0 bytes,-1.0,5,AS3,postgres,AS3_Adventureworks_sa_sop
-AS3_Adventureworks_sa_s,Adventureworks,sa,s,VIEW,,0 bytes,-1.0,7,AS3,postgres,AS3_Adventureworks_sa_s

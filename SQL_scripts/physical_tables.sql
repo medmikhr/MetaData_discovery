@@ -11,7 +11,7 @@ from
 	SELECT table_catalog, table_schema, table_name, table_type
 	FROM information_schema.tables as t
 	WHERE 1=1
-	-- and table_type='BASE TABLE'
+	 and table_type='BASE TABLE'
 	AND table_schema not in ('pg_catalog', 'information_schema')
 ) as t
 left join
